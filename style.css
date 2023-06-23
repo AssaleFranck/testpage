@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    
+}
+h1, h2, h3, p, span {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* -------------------- FONT --------------------------- */
+
+
+
+
+/* ---------------------- BACKGROUND --------------------- */
+
+header {
+    height: 100vh;
+    background-image: url('./assets/banner.jpg');
+}
+.card-bg-1 {
+    background-image: url('./assets/card_1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+
+#card-bg-2 {
+    background-image: url('./assets/card_2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+.about-gb {
+    background-image: url('./assets/img_8.jpg');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover; 
+}
+
+
+
+
+/*              COLOR            */
+.bg-color {
+    background-color: #323a56;
+}
+.bg-color-2 {
+    background-color: #dee2e6;
+}
+.bg-color-3 {
+    background-color: #323a56;
+}
+.bg-color-4 {
+    background-color: #b31536;
+}
+.bg-color-5 {
+    background-color: #d9dfe5;
+}
+.bg-color-6 {
+    background-color: #ccd1e5;
+}
+.bg-color-7 {
+    background-color: #ccd1e5;
+}
+.bg-color-8 {
+    background-color: #e3353b;
+}
+.footer-bg {
+    background-color: #333333;
+}
+.text-color-purple {
+    color: #ccd1e5;
+}
+.text-color-dark-blue {
+    color: #323a56;
+}
+
+
+
+
+/* ------------------ WIDTH AND HEIGHT ------------------- */
+
+.w-90 {
+    width: 90vw;
+}
+.w-80 {
+    width: 80vw;
+}
+.custom-h-80 {
+    height: 90vh !important;
+}
+
+.custom-card {
+    height: 120vh !important;
+    /* border: 1px solid #FFF; */
+    padding: 0;
+    margin: 0;
+}
+.section-h {
+    height: 100vh !important;
+}
+
+.custom-h-70 {
+    height: 60%;
+}
+.custom-h-30 {
+    height: 39%;
+}
+.h-40 {
+    height: 40%;
+}
+
+footer {
+    height: 40vh !important;
+}
+/* --------------- TEXT ----------------- */
+.text-align {
+    text-align: justify;
+}
+
+h3 {
+    text-transform: capitalize;
+}
+
+
+
+
+.text-shadow {
+    text-shadow: 2px 2px #000;
+}
+section {
+    /* border: 1px solid red; */
+    padding: 0;
+    margin: 0;
+}
+
+
+.btn-custom {
+    padding: 1em;
+    border: 2px solid #fff;
+    text-decoration: none;
+    text-transform: uppercase   ;
+    color: #fff;
+}
+
+.btn-custom:hover {
+    background-color: #fff;
+    color: #29314a;
+}
+
+/* ---------------- RESPONSIVE ELEMENTS --------------------- */
+/* @media (max-width: 767.98px) {
+    
+} */
+@media (min-width: 767.98px) and (max-width: 1199.98px) {
+    .custom-h-80 {
+        height: 70vh !important;
+    }
+}
+
+
+@media (max-width: 767.98px) {
+    .w-75 {
+        width: 100% !important;
+    }
+}
+@media (max-width: 767.98px) {
+    .h-75 {
+        width: 50% !important;
+    }
+}
+
