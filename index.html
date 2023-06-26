@@ -17,9 +17,9 @@
     <title>SICEC</title>
 </head>
 <body>
-    <header class="border">
-        <div class="container-fluid bg custom-w80 border border-danger">
-            <nav class="navbar navbar-expand-lg pt-lg-3 w-75 mx-auto border border-black mb-4 mb-lg-0">
+    <header class="">
+        <div class="container-fluid bg custom-w80 h-100  w-100">
+            <nav class="navbar navbar-expand-lg pt-lg-3 w-75 mx-auto mb-4 mb-lg-0">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
                         <img src="./assets/logo sicec.jpg" alt="Bootstrap" width="30" height="24">
@@ -40,8 +40,8 @@
                     </div>
                 </div>
             </nav>
-            <div class="row w-90 mx-auto flex-row justify-content-around align-items-end align-items-lg-center custom-h-80 border border-warning">
-                <div class="col-12 col-md-4 bg-color text-color-purple p-5 h-75 d-flex flex-column justify-content-around align-items-center border border-danger">
+            <div class="row flex-column flex-md-row justify-content-around align-items-center custom-h w-100 border">
+                <div class="col-11 col-sm-7 col-md-6 col-lg-4 order-1 order-md-0 d-flex flex-column justify-content-between bg-color text-color-purple p-5 card-blue-h">
                     <h2 class="text-uppercase fw-bold text-center text-white">notre mission</h2>
                     <!-- <p class="text-align"> -->
                     <p class="text-center">
@@ -53,11 +53,16 @@
                         <a href="#sicec" class=" btn-custom text-center ">voir plus</a>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 h-75 d-flex flex-column justify-content-end text-white fw-bolder border border-danger">
-                    <h3 class="display-3 text-end text-shadow">L'avenir est ici</h3>
-                    <p id="sicec" class="text-end text-shadow fst-italic">
-                        BUILD AFRICA TODAY AND TOMORROW
-                    </p>
+                <div class="col-11 d-flex flex-column justify-content-end col-md-6 text-white fw-bolder h-100 h-xs-25 border border-danger">
+                    <div class="col-8 h-50 border border-black d-none">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse libero ipsa necessitatibus, rerum non veniam fuga ducimus reiciendis nulla aspernatur modi tempore dolore dolor expedita. Hic voluptatibus et est ab!</p>
+                    </div>
+                    <div class="col-12 border border-black">
+                        <h3 class="display-3 text-end text-shadow">L'avenir est ici</h3>
+                        <p id="sicec" class="text-end text-shadow fst-italic">
+                            BUILD AFRICA TODAY AND TOMORROW
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -73,13 +78,18 @@
             </div>
         </div> -->
         <div class="container-fluid m-0 p-0">
+
+            <!--                            SICEC                            -->
             <section class="bg-color-2 py-5">
                 <div class="row m-0 p-0">
                     <div class="col d-flex justify-content-center">
-                        <img src="./assets/sicec.png" alt="sino ivoire construction engineering corporation" class="img-fluid border mx-auto">
+                        <img src="./assets/sicec.png" alt="sino ivoire construction engineering corporation" class="img-fluid mx-auto">
                     </div>
                 </div>
             </section>
+            
+
+            <!--                       CARACTERISTIQUES                           -->
             <section class="bg-color-3 text-white py-5">
                 <div class="row custom-w80 my-3 w-80 mx-auto mb-5">
                     <h1 class="display-6 fw-bolder text-center mb-4"><span>S</span>INO <span>I</span>VOIRE <span>C</span>ONSTRUCTION <span>E</span>NGINEERING <span>C</span>ORPORATION</h1>
@@ -191,8 +201,7 @@
             </section> -->
 
 
-            <!--                            A PROPOS                            -->
-
+            <!--                           A PROPOS                            -->
             <section class="bg-color-6 py-5 section-h" id="about">
                 <div class="row w-80 mx-auto h-100">
                     <div class="col-12 col-md-6 d-flex p-0">
@@ -218,19 +227,64 @@
                     </div>
                 </div>
             </section>
-            <!-- <section>
-                <h2>Nous contacter</h2>
+
+            <!--                        NOS REALISATIONS                           -->
+            <section id="realisation" class="">
                 <div class="row">
-                    <div class="col-12 col-8">
-                        <p>
-                            scaner pour nous contacter
-                        </p>
+                    <h2>NOS REALISATIONS</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores totam animi, minus id officia ipsum assumenda, ipsa nulla error cumque earum fuga eos esse a doloremque temporibus repudiandae dignissimos rem.</p>
+                    <div class="Col-12 col-lg-4">
+                        <img src="" alt="" class="img-fluid">
                     </div>
-                    <div class="col-12 col-4">
-                        qr code
+                    <div class="Col-12 col-lg-4">
+                        <img src="" alt="" class="img-fluid">
+                    </div>
+                    <div class="Col-12 col-lg-4">
+                        <img src="" alt="" class="img-fluid">
                     </div>
                 </div>
-            </section> -->
+            </section>
+
+
+            <!--                            NOUS CONTACTER                            -->
+            <section>
+                <h2>Nous contacter</h2>
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <div class="col">
+                            <h6><i data-feather="lacation"></i> <span></span> Adresse</h6>
+                            <p>
+                                <span>CHINA: </span>
+                                11 Floor, Jian She Lui RVd, Guangzhou, 510060
+                            </p>
+                            <p>
+                                <span>côte d'ivoire: </span>Abidjan, Plateau Bd. Angoulvant
+                            </p>
+                        </div>
+                        <div class="col">
+                            <h6><i data-feather="contact"></i></h6>
+                            <p>
+                                Tel: (+88) 131 673 712 33 <br>
+                                (+225) 07 89 052 198 / 05 85 363 454
+                            </p>
+                            <p><i data-feather="email"></i> info@guanxigroup.com</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                       <h6>Laisser une note</h6>
+                       <div>
+                           <div class="mb-3">
+                               <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                               <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                           </div>
+                           <div class="mb-3">
+                               <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                           </div>
+                       </div>
+                    </div>
+                </div>
+            </section>
         </div>
     </main>
     <footer class="footer-bg">
