@@ -2,12 +2,13 @@
     margin: 0;
     
 }
+
+/* -------------------- FONT --------------------------- */
 h1, h2, h3, h4, h5, h6, p, span {
     font-family: 'Roboto', sans-serif;
 }
 
 
-/* -------------------- FONT --------------------------- */
 
 
 
@@ -48,9 +49,9 @@ header {
 .bg-color-2 {
     background-color: #dee2e6;
 }
-.bg-color-3 {
+/* .bg-color-3 {
     background-color: #323a56;
-}
+} */
 .bg-color-4 {
     background-color: #b31536;
 }
@@ -75,8 +76,14 @@ header {
 .text-color-dark-blue {
     color: #323a56;
 }
-
-
+.shadow-color-2 {
+    /* border: 1px solid #323a56; */
+    box-shadow: 10px 10px #dee2e6;
+}
+.border-color {
+    /* border-right: 1px solid #323a56; */
+    /* border: 0 0 0 3px ; */
+}
 
 
 /* ------------------ WIDTH AND HEIGHT ------------------- */
@@ -85,6 +92,9 @@ header {
     width: 90vw;
 }
 .w-80 {
+    width: 80vw;
+}
+.custom-w {
     width: 80vw;
 }
 
@@ -99,6 +109,7 @@ header {
 }
 .section-h {
     height: 100vh !important;
+    /* min-height: 100vh !important; */
 }
 
 .custom-h-70 {
@@ -118,6 +129,14 @@ header {
 footer {
     height: 40vh !important;
 }
+.bande-w {
+    width: 4vw;
+}
+
+
+
+
+
 /* --------------- TEXT ----------------- */
 .text-align {
     text-align: justify;
@@ -163,6 +182,12 @@ section {
         height: 70vh !important;
     }
 }
+@media (min-width: 767.98px) {
+    .shadow-color-2 {
+        /* border: 1px solid #323a56; */
+        box-shadow: 20px 20px #dee2e6;
+    }
+}
 
 
 @media (max-width: 767.98px) {
@@ -174,6 +199,9 @@ section {
     .h75 {
         height: 80% !important;
     }
+    .bande-w {
+        width: 1vw;
+    }
     
 }
 @media (max-width: 765.98px) {
@@ -184,10 +212,33 @@ section {
     .card-blue-h {
         height: 60% !important;
     }
+
+    .custom-card {
+        height: 90vh !important;
+    }
+
+    .custom-w {
+        width: 90vw;
+    }
+    .custom-h-about {
+        height: 55%
+    }
+    .w-80 {
+        width: 90vw;
+    }
 }
+
 @media (max-width: 991.98px) {
     .h-xs-25 {
         height: 25% !important;
+    }
+}
+@media (max-width: 1199.98px) {
+    .custom-card {
+        height: 80vh !important;
+    }
+    .custom-h-70 {
+        height: 55%;
     }
 }
 

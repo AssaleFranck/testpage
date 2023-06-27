@@ -1,2 +1,2 @@
-# testpage
-for hosting test
+# SICEC
+Build Africa today and tomorrow
