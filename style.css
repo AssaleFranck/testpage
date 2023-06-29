@@ -1,13 +1,15 @@
 * {
     margin: 0;
-    
+
 }
 
 /* -------------------- FONT --------------------------- */
 h1, h2, h3, h4, h5, h6, p, span {
     font-family: 'Roboto', sans-serif;
 }
-
+p {
+    display: inline-block !important;
+}
 
 
 
@@ -80,10 +82,10 @@ header {
     /* border: 1px solid #323a56; */
     box-shadow: 10px 10px #ccd1e5;;
 }
-.border-color {
-    /* border-right: 1px solid #323a56; */
-    /* border: 0 0 0 3px ; */
-}
+/* .border-color {
+    border-right: 1px solid #323a56;
+    border: 0 0 0 3px ;
+} */
 
 
 /* ------------------ WIDTH AND HEIGHT ------------------- */
@@ -100,6 +102,10 @@ header {
 .custom-w100 {
     width: 100vw;
 }
+
+.custom-w-80 {
+    width: 80% !important;
+}
 .card-blue-h {
     height: 75% !important;
 }
@@ -111,6 +117,10 @@ header {
 }
 .section-h {
     height: 100vh !important;
+    /* min-height: 100vh !important; */
+}
+.section-h-75 {
+    height: 75vh !important;
     /* min-height: 100vh !important; */
 }
 
@@ -150,6 +160,7 @@ h3 {
 
 
 
+/* ---------------------- OTHER ELEMENT ----------------------  */
 
 .text-shadow {
     text-shadow: 2px 2px #000;
@@ -167,14 +178,28 @@ section {
     text-transform: uppercase   ;
     color: #fff;
 }
-
-
-
 .btn-custom:hover {
     background-color: #fff;
     color: #29314a;
 }
 
+.btn-custom-2 {
+    background: none;
+    padding: 0.7em 3em;
+    border: 2px solid #29314a;
+    text-decoration: none;
+    text-transform: uppercase   ;
+    color: #29314a;
+}
+.btn-custom-2:hover {
+    background-color: #29314a;
+    color: #fff;
+}
+
+.form-control {
+    border: 1px solid #2b60ad;
+    outline: none;
+}
 /* ---------------- RESPONSIVE ELEMENTS --------------------- */
 /* @media (max-width: 767.98px) {
     
@@ -188,6 +213,10 @@ section {
     .shadow-color-2 {
         /* border: 1px solid #323a56; */
         box-shadow: 2vw #dee2e6;
+    }
+    .section-h {
+        height: 70vh !important;
+        /* min-height: 100vh !important; */
     }
 }
 
@@ -225,6 +254,12 @@ section {
     .w-80 {
         width: 90vw;
     }
+    .btn-custom-2 {
+        padding: 0.5em 2em;
+    }
+    footer {
+        height: 25vh !important;
+    }
 }
 
 @media (max-width: 991.98px) {
@@ -240,5 +275,3 @@ section {
         height: 55%;
     }
 }
-
-
