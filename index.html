@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <!-- Custom Style -->
@@ -11,344 +10,129 @@
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> -->
+    <link href="//fonts.googleapis.com/css?family=Roboto|Open+Sans:200,300,400,700,800,900&amp;subset=latin" rel="preload" as="font">
     <!-- Flather Icons -->
     <script src="https://unpkg.com/feather-icons"></script>
     <!-- script animation -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
-    <title>SICEC</title>
+    <title>GUANXI INDUSTRIES</title>
 </head>
 <body>
-    <header class="">
-        <div class="container-fluid bg custom-w80 h-100 w-100">
-            <nav class="navbar navbar-expand-lg pt-lg-3 w-75 mx-auto mb-4 mb-lg-0">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
-                        <img src="./assets/logo sicec.jpg" alt="Bootstrap" width="30" height="24">
-                    </a>                  
-                    <a class="navbar-brand" href="#">SICEC</a>
+    <header class="p-0 m-0">
+        <div class="container-fluid h-100 text-white m-0  p-0">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary w-100">
+                <div class="container-fluid p-0">
+                    <img src="./assets/partenaire/guanxi_industry.png" alt="logo Guanxi industries" width="100" height="60" class="p-0">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse nav justify-content-end" id="navbarSupportedContent">
-                        <ul class="navbar-nav mb-2 mb-lg-0">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link" href="#about">A propos</a>
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contacter</a>
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled">Disabled</a>
                             </li>
                         </ul>
                     </div>
                 </div>
-            </nav>
-            <div class="row flex-column flex-md-row justify-content-around align-items-center custom-h w-100 mx-auto">
-                <div class="col-11 col-sm-7 col-md-5 col-lg-4 order-1 order-md-0 d-flex flex-column justify-content-between bg-color text-color-purple p-5 card-blue-h">
-                    <h2 class="text-uppercase fw-bold text-center text-white">notre mission</h2>
-                    <!-- <p class="text-align"> -->
-                    <p class="text-center">
-                        Construire l’Afrique d’aujourd’hui et celle de demain
-                        avec une expertise conjointe <br> sino-africaine,
-                        dans un partenariat <br> gagnant-gagnant
-                    </p>
-                    <div class="d-flex justify-content-center">
-                        <a href="#sicec" class=" btn-custom text-center ">voir plus</a>
-                    </div>
+              </nav>
+            <div class="row m-0 p-0 flex-column h-75 justify-content-between">
+                <div class="col-12 col-md-8">
+                    <img src="./assets/partenaire/guanxi_industry.png" alt="logo Guanxi industries" class="img-fluid">
                 </div>
-                <div class="col-11 d-flex flex-column justify-content-end col-md-6 text-white fw-bolder h-100 h-xs-25">
-                    <div class="col-8 h-50 d-none">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse libero ipsa necessitatibus, rerum non veniam fuga ducimus reiciendis nulla aspernatur modi tempore dolore dolor expedita. Hic voluptatibus et est ab!</p>
-                    </div>
-                    <div class="col-12 text-md-end text-center">
-                        <h3 class="display-3 text-shadow">L'avenir est ici</h3>
-                        <p id="sicec" class="text-shadow fst-italic">
-                            BUILD AFRICA TODAY AND TOMORROW
-                        </p>
-                    </div>
+                <div class="col-10 col-md-5">
+                    <h2 class="display-1 text-uppercase fw-bolder">your industrial support</h2>
                 </div>
             </div>
         </div>
     </header>
     <main>
-        <!-- <div class="container-fluid">
-            <h2>Conception et recherche architecturales</h2>
-            <div class="row">
-                <div class="col-12 col-xl-5"></div>
-                <div class="col-12 col-xl-5"></div>
-                <div class="col-12 col-xl-5"></div>
-                <div class="col-12 col-xl-5"></div>
-            </div>
-        </div> -->
-        <div class="container-fluid m-0 p-0">
+        <!-- <div class="container-fluid"> -->
 
-            <!--                            SICEC                            -->
-            <section class="bg-color-2 py-5">
-                <div class="row m-0 p-0">
-                    <div class="col d-flex justify-content-center">
-                        <img src="./assets/sicec.png" alt="sino ivoire construction engineering corporation" class="img-fluid mx-auto">
+            <!--                        A PROPOS                           -->
+            <section id="about" class="custom-h-100 m-0 p-0 ">
+                <div class="row flex-column w-100 m-0 p-0">
+                    <div class="col-12 col-md-7 img-about custom-h-50">
+                        <!-- <img src="./assets/ilustrations/img_8.jpg" alt="illustration" class="img-fluid"> -->
                     </div>
-                </div>
-            </section>
-            
-
-            <!--                       CARACTERISTIQUES                           -->
-            <section class="bg-color text-white py-5">
-                <h1 class="display-6 fw-bolder text-center mb-4 custom-w mx-auto"><span>S</span>INO <span>I</span>VOIRE <span>C</span>ONSTRUCTION <span>E</span>NGINEERING <span>C</span>ORPORATION</h1>
-                <div class="row custom-w justify-content-center align-items-center my-3 mx-auto mb-5">
-                    <div class="col-12 col-md-6 col-xl-4 d-flex flex-column justify-content-between custom-card bg-color-4">
-                        <div class="col-12 custom-h-70 card-bg-1">
-                            <!-- <img src="./assets/card_1.jpg" alt="" class="img-fluid"> -->
-                        </div>
-                        <div class="col-12 custom-h-30 d-flex flex-column justify-content-between justify-content-lg-around p-1 px-4 px-lg-4">
-                            <img src="./assets/icons/ICON_1.png" class="me-auto" height="100px" width="100px" alt="logo">
-                            <h3 class="">civil engineering</h3>
-                            <p class="text-start">
-                                Lorem ipsum dolor sit amet, consectetur 
-                                adipiscing elit, sed do eiusmod tempor 
-                                incididunt ut labore et dolore magna aliqua
-                            </p>
-                        </div>
-                    </div>
-                    
-                    <div class="col-12 col-md-6 col-xl-4 d-flex flex-column my-4 my-md-0 justify-content-between custom-card bg-color-5">
-                        <div class="col-12 order-2 order-xl-0 custom-h-30 d-flex flex-column justify-content-between justify-content-lg-around p-1 px-4 px-lg-4 text-color-dark-blue">
-                            <img src="./assets/icons/ICON_2.png" class="me-auto" height="100px" width="100px" alt="logo">
-                            <h3>project financing</h3>
-                            <p class="text-start">
-                                Lorem ipsum dolor sit amet, consectetur 
-                                adipiscing elit, sed do eiusmod tempor 
-                                incididunt ut labore et dolore magna aliqua
-                            </p>
-                        </div>
-                        <div id="card-bg-2" class="col-12 custom-h-70 card-bg-1">
-                            <!-- <img src="./assets/card_2.jpg" alt="" class="img-fluid"> -->
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-xl-4 d-flex flex-column justify-content-between custom-card bg-white">
-                        <div class="col-12 custom-h-70 card-bg-1">
-                            <!-- <img src="./assets/card_1.jpg" alt="" class="img-fluid"> -->
-                        </div>
-                        <div class="col-12 custom-h-30 d-flex flex-column justify-content-between justify-content-lg-around p-1 px-4 px-lg-4 text-color-dark-blue">
-                            <img src="./assets/icons/ICON_1.png" class="me-auto" height="100px" width="100px" alt="logo">
-                            <h3 class="text-danger">construction management</h3>
-                            <p class="text-start">
-                                Lorem ipsum dolor sit amet, consectetur 
-                                adipiscing elit, sed do eiusmod tempor 
-                                incididunt ut labore et dolore magna aliqua
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- <section>
-                <div class="row">
-                    <h2>Conception et recherche architecturales</h2>
-                    <div class="col-12 col-xl-6">
-                        <div class="col-6">
-                            <img src="" alt="">
-                        </div>
-                        <div class="col-6">
-                            <p>
-                                Congue eu consequat ac felis donec et odio pellentesque diam. 
-                                Facilisi cras fermentum odio eu feugiat pretium nibh ipsum. Blandit turpis cursus in hac. Tristique senectus et netus et 
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-xl-6">
-                        <div class="col-6">
-                            <img src="" alt="">
-                        </div>
-                        <div class="col-6">
-                            <p>
-                                Congue eu consequat ac felis donec et odio pellentesque diam. 
-                                Facilisi cras fermentum odio eu feugiat pretium nibh ipsum. Blandit turpis cursus in hac. Tristique senectus et netus et 
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-xl-6">
-                        <div class="col-6">
-                            <img src="" alt="">
-                        </div>
-                        <div class="col-6">
-                            <p>
-                                Congue eu consequat ac felis donec et odio pellentesque diam. 
-                                Facilisi cras fermentum odio eu feugiat pretium nibh ipsum. Blandit turpis cursus in hac. Tristique senectus et netus et 
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-xl-6">
-                        <div class="col-6">
-                            <img src="" alt="">
-                        </div>
-                        <div class="col-6">
-                            <p>
-                                Congue eu consequat ac felis donec et odio pellentesque diam. 
-                                Facilisi cras fermentum odio eu feugiat pretium nibh ipsum. Blandit turpis cursus in hac. Tristique senectus et netus et 
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </section> -->
-            <!-- <section>
-                <div class="row">
-                    <div class="col-12 col-lg-6">
-                        <span></span>
-                        <img src="" alt="">
-                    </div>
-                    <div class="col-12 col-lg-6">
-                        <span></span>
-                        <img src="" alt="">
-                    </div>
-                </div>
-            </section> -->
-
-
-            <!--                           A PROPOS                            -->
-            <section class="bg-color-6 py-5 section-h" id="about">
-                <div class="row w-80 flex-md-row mx-auto h-100">
-                    <div class="col-12 col-md-6 d-flex p-0 custom-h-about">
-                        <div class="col-1 col-md-2 h-40 align-self-end bg-color-8 mb-5"></div>
-                        <div class="col-11 about-gb">
-                            <!-- <img src="./assets/img_8.jpg" alt="illustration" class="img-fluid"> -->
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 d-flex p-0">
-                        <div class="col-11 bg-white p-4 d-flex flex-column justify-content-center ">
-                            <h2 class="fw-bold text-center mb-md-3">À propos de SICEC</h2>
-                            <p class="text-align">
-                                Fruit de la coopération sino-ivoirienne, 
-                                SICEC s’appuie sur l’expertise chinoise et le 
-                                savoir-faire africain pour la réalisation des projets 
-                                d’infrastructure en Afrique. Spécialisée dans le Génie civil, 
-                                les Travaux publics, le Bâtiment, l’Hydraulique et l’Energie, 
-                                SICEC associe à la fois l’ingéniosité, la qualité et 
-                                le respect des délais dans l’exécution de ses travaux.
-                            </p>
-                        </div>
-                        <div class="col-1 col-md-2 bg-color-8 h-40 align-self-center bg-color-8 mb-5"></div>
+                    <div class="col-12 col-md-5 p-3 pb-0">
+                        <h2 class="text-center text-capitalize mb-4">A propos de <br><span class="fw-bolder text-danger ">GUANXI INDUSTRIES</span></h2>
+                        <p class="text-justify">
+                            <strong>GUANXI INDUSTRIES</strong> est la branche industrielle du groupe <strong>GUANXI MANAGEMENT</strong> 
+                            basé en Chine et présent dans plusieurs pays en Afrique. <br>
+                            Doté d'un patenariat solide avec des usines chinoises, nous assurons avec une équipe d'ingénieurs et de techniciens 
+                            chinois et africains, la production, la fourniture et la maintenance d'équipement et machines industriels.
+                        </p>
                     </div>
                 </div>
             </section>
 
-            <!--                        NOS REALISATIONS                           -->
-            <section id="realisation" class="bg-color text-white custom-w100">
-                <div class="row flex-column flex-md-row pt-4 pb-2 w-100">
-                    <h2 class="text-center">NOS REALISATIONS</h2>
-                    <p class="text-align w-80 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores totam animi, minus id officia ipsum assumenda, ipsa nulla error cumque earum fuga eos esse a doloremque temporibus repudiandae dignissimos rem.</p>
-                    
-                    <div class="col-12 d-flex flex-column flex-md-row w-100">
-                        <div class="col-10 col-md-5 col-lg-5 d-flex flex-row col-lg-3 border-color-8 mx-auto my-md-5 mt-3 p-0">
-                            <div class="col-11 ">
-                                <img src="./assets/ilustrations/illustration_1.jpg" alt="" class="img-fluid shadow-color-2">
-                            </div>
+            <!--                       POURQUOI NOUS CHOISIR                           -->
+            <section id="why_us" class="bg-silver border-silver">
+                <div class="row m-0 p-0 mt-4">
+                    <div class="col">
+                        <h2 class="text-capitalize text-center fw-bolder">pourquoi nous choisir ?</h2>
+                        <p class="text-center fst-italic">Fournisseur N°1 d'equipement industriels <br> <span class="text-danger">Made in China</span></p>
+                    </div>
+                    <div class="col-12 col-md-6 d-flex flex-row m-0 p-0 justify-content-center">
+                        <div class="col-4">
+                            <img src="./assets/icon/icon.png" alt="" class="img-fluid">
                         </div>
-                        <div class="col-10 col-md-5 col-lg-5 d-flex flex-row col-lg-3 border-color-8 mx-auto my-5 mb-md-5 p-0">
-                            <div class="col-11 ">
-                                <img src="./assets/ilustrations/illustration_2.jpg" alt="" class="img-fluid shadow-color-2">
-                            </div>
+                        <div class="col-7 d-flex justify-content-center align-items-center">
+                            <p class="text-center">un réseau solide de partenaire Chinois</p>
                         </div>
                     </div>
-
-                    <div class="col-12 d-flex flex-column flex-md-row ">
-                        <div class="col-10 col-md-5 col-lg-5 d-flex flex-row col-lg-3 border-color-8 mx-auto my-md-5 p-0">
-                            <div class="col-11 ">
-                                <img src="./assets/ilustrations/illustration_3.jpg" alt="" class="img-fluid shadow-color-2">
-                            </div>
+                    <div class="col-12 col-md-6 d-flex flex-row m-0 p-0 justify-content-center">
+                        <div class="col-4 ">
+                            <img src="./assets/icon/icon.png" alt="" class="img-fluid">
                         </div>
-                        <div class="col-10 col-md-5 col-lg-5 d-flex flex-row col-lg-3 border-color-8 mx-auto my-5 mb-md-5 p-0">
-                            <div class="col-11 ">
-                                <img src="./assets/ilustrations/illustration_4.jpg" alt="" class="img-fluid shadow-color-2">
-                            </div>
+                        <div class="col-7 d-flex justify-content-center align-items-center">
+                            <p class="text-center">Un savoir faire confirmé</p>
                         </div>
                     </div>
-
-                </div>
-            </section>
-
-
-            <!--                            NOUS CONTACTER                            -->
-            <section class="bg-color-6 py-4" id="contact">
-                <h2 class="fw-bolder text-center mb-lg-3 mb-5 text-uppercase">Nous contacter</h2>
-                <div class="row h-100">
-                    <div class="col-12 col-lg-6">
-                        <div class="col">
-                            <div class="col d-flex align-items-center justify-content-center mb-3">
-                                <i data-feather="map-pin"></i><span></span> 
-                                <h6 class="fs-4 text-center m-0 ms-2">Adresse</h6>
-                            </div>
-                            <div class="col col-md-8 d-md-flex flex-column justify-content-center align-items-start mx-auto">
-                                <p class="text-start ps-2 ">
-                                    <span class="fw-bolder text-color-dark-blue">CHINA: </span>
-                                    11 Floor, Jian She Lui RVd, Guangzhou, 510060
-                                </p>
-                                <p class="text-start ps-2">
-                                    <span class="fw-bolder text-color-dark-blue text-uppercase">côte d'ivoire : </span>Abidjan, Plateau Bd. Angoulvant
-                                </p>
-                            </div>
+                    <div class="col-12 col-md-6 d-flex flex-row m-0 p-0 justify-content-center">
+                        <div class="col-4">
+                            <img src="./assets/icon/icon.png" alt="" class="img-fluid">
                         </div>
-                        <hr class="w-50 mx-auto bg-color my-5" style="height: 5px;">
-                        <div class="col">
-                            <div class="col d-flex align-items-center justify-content-center mb-3">
-                                <i data-feather="phone"></i><span></span> 
-                                <h6 class="fs-4 text-center m-0 ms-2">Contact</h6>
-                            </div>
-                            <div class="col col-md-8 d-md-flex flex-column justify-content-center align-items-start mx-auto">
-                                <p class="text-start ps-2">
-                                    <span class="fw-bolder text-color-dark-blue text-uppercase">CHINA : </span>
-                                    (+88) 131 673 712 33
-                                </p>
-                                <p class="text-start ps-2">
-                                    <span class="fw-bolder text-color-dark-blue text-uppercase">COTE D'IVOIRE : </span>
-                                    (+225) 07 89 052 198 / 05 85 363 454
-                                </p>
-                            </div>
-                        </div>
-                        <hr class="w-50 mx-auto bg-color my-5" style="height: 5px;">
-                        <div class="col">
-                            <div class="col d-flex align-items-center justify-content-center mb-2">
-                                <i data-feather="mail"></i><span></span> 
-                                <h6 class="fs-4 text-center m-0 ms-2">Email</h6>
-                            </div>
-                            <p class="text-center mx-auto d-inline-block-none w-100">
-                                info@guanxigroup.com
-                            </p>
+                        <div class="col-7 d-flex justify-content-center align-items-center">
+                            <p class="text-center">Un service orienté client</p>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6">
-                        <hr class="w-50 mx-auto bg-color my-5 my-lg-0 d-lg-none" style="height: 5px;">
-                       <h6 class="my-3 text-center">Laissez nous un message</h6>
-                       <div class="custom-w-80 mx-auto h-75">
-                        <form >
-                        <!-- <form method="POST" action="<?php htmlspecialchars($_SERVER['PHP_SELF']); ?>" > -->
-                            <div class="mb-3">
-                                <!-- <p class="m-0 p-0"><?php echo $err_pass ?></p> -->
-                                <label for="name" class="form-label">Votre nom et prenom</label> 
-                                <input type="text" name="name" class="form-control" id="name" placeholder="John Doe" require>
-                            </div>
-                            <div class="mb-3">
-                                <label for="email" class="form-label">Votre adresse email</label>
-                                <input type="email" name="email" class="form-control" id="email" placeholder="name@example.com" require>
-                            </div>
-                            <div class="mb-3">
-                                <label for="message" class="form-label">Votre message</label>
-                                <textarea name="message" class="form-control" id="message" rows="3" maxlength="70" require></textarea>
-                            </div>
-                            <div class="d-flex justify-content-center">
-                                <button type="submit" class="btn-custom-2">Envoyer</button>
-
-                            </div>
-                        </form>
-                       </div>
+                    <div class="col-12 col-md-6 d-flex flex-row justify-content-center m-0 p-0">
+                        <div class="col-4">
+                            <img src="./assets/icon/icon.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-7 d-flex justify-content-center align-items-center">
+                            <p class="text-center">La meilleure rapport qualité-prix</p>
+                        </div>
                     </div>
                 </div>
             </section>
 
-            <!--                    SLIDER               -->
-            <section id="slider" class="py-3">
+            <!--                       PRODUITS                           -->
+        
+            <section id="product" class="py-3">
                 <div class="container-fluid">
-                    <h2 class="fw-bolder text-center text-uppercase">Nos partenaire</h2>
+                    <h2 class="text-center text-uppercase mb-3">Que desirez-vous ?</h2>
                     <div class="row slider d-flex align-items-center  flex-nowrap flex-row m-0 p-0">
                         <div class="col-sm-3 col-4 me-2"><img src="./assets/partenaire/guanxi_managment.png" alt="Icon 1" class="img-fluid"></div>
                         <div class="col-sm-3 col-4 me-2"><img src="./assets/partenaire/guanxi_industry.png" alt="Icon 1" class="img-fluid"></div>
@@ -360,19 +144,67 @@
                     </div>
                 </div>
             </section>
-        </div>
-    </main>
-    <footer class="footer-bg">
-        <div class="container-fluid text-white fw-lighter h-100 d-flex justify-content-center">
-            <div class="row m-auto">
-                <div class="col-12 d-flex justify-content-center mb-4">
-                    <a href="#" class="text-danger"><i data-feather="facebook"></i></a>
-                    <a href="#" class="text-danger"><i data-feather="linkedin"></i></a>
+
+            <!--                    NOTRE VISION               -->
+            <section id="vision" class="vision-h bg-pink">
+                <div class="row flex-column h-100 p-0 m-0">
+                    <div class="col-12 col-md-4 h-50 img-about">
+                        <!-- <img src="./assets/ilustrations/img_8.jpg" alt="ilustration" class="img-fluid"> -->
+                    </div>
+                    <div class="col-12 col-md-8 py-3">
+                        <h2 class="text-center text-capitalize mb-4">Notre vision</h2>
+                        <p class="text-justify">Passionnés par l'Afrique et son développement, <span>GUANXI INDUSTRIES</span> ambtionne de contribuer à l'industrialisation de l'Afrique dans un partenariat <span>gagnant-gagnant avec la Chine.</span></p>
+                    </div>
                 </div>
-                <p class="text-center m-0 mb-3">SINO IVOIRE CONSTRUCTION ENGINEERING CORPORATION</p>
-                <p class="text-center m-0">Copyright <a href="https://ci.linkedin.com/in/assale-franck-tanoh" target="_blank" class="text-white text-decoration-none">&#xa9</a> 2023</p>
-            </div>
-        </div>
+            </section>
+
+            <!--                    NOS PARTENAIRE                -->
+            <section id="slider" class="py-3">
+                <div class="container-fluid">
+                    <h3 class="text-center text-uppercase">Nos partenaires</h3>
+                    <div class="row slider d-flex align-items-center  flex-nowrap flex-row m-0 p-0">
+                        <div class="col-sm-3 col-4 me-2"><img src="./assets/partenaire/guanxi_managment.png" alt="Icon 1" class="img-fluid"></div>
+                        <div class="col-sm-3 col-4 me-2"><img src="./assets/partenaire/guanxi_industry.png" alt="Icon 1" class="img-fluid"></div>
+                        <div class="col-sm-3 col-4 me-2"><img src="./assets/partenaire/EACCI.png" alt="Icon 1" class="img-fluid"></div>
+                        <div class="col-sm-3 col-4 me-2"><img src="./assets/partenaire/Logo-sino-afrique-mag.png" alt="Icon 1" class="img-fluid"></div>
+                        <div class="col-sm-3 col-4 me-2"><img src="./assets/partenaire/g2i.png" alt="Icon 1" class="img-fluid"></div>
+                        <div class="col-sm-3 col-4 me-2"><img src="./assets/partenaire/wietc.png" alt="Icon 1"  class="img-fluid"></div>
+                    </div>
+                </div>
+            </section>
+            <!-- Ajoutez davantage de divs pour les autres icônes -->
+
+            <!--                    NOUS CONTACTER                -->
+            <section id="contact" class="py-4 bg-silver">
+                <div class="row flex-column m-0 p-0">
+                    <h2 class="text-center text-capitalize mb-3">Contactez nous</h2>
+                    <div class="col-12 col-md-6 d-flex flex-row">
+                        <div class="col-2">
+                            <i data-feather="map-pin" style="width: 100%; height: 100px; color: brown;" class=""></i>
+                        </div>
+                        <div class="col-10">
+                            <h4 class="text-uppercase text-center fs-6 fw-bold">côte d'ivoire</h4>
+                            <p class="m-0 ms-3 p-0"><i data-feather="map" style="width: 20px; " class=""></i> Abidjan; Plateau Bd. Angoulvant</p>
+                            <p class="m-0 ms-3 p-0"><i data-feather="phone" style="width: 20px; " class=""></i> (+225) 07 052 198 / 05 85 363 454</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 d-flex flex-row">
+                        <div class="col-2">
+                            <i data-feather="map-pin" style="width: 100%; height: 100px; color: brown;" class=""></i>
+                        </div>
+                        <div class="col-10">
+                            <h4 class="text-uppercase text-center fs-6 fw-bold">chine</h4>
+                            <p class="m-0 ms-3 p-0"><i data-feather="map" style="width: 20px; " class=""></i> 11 Floor, Jin She Liu RVd, Guangzhou; 510060</p>
+                            <p class="m-0 ms-3 p-0"><i data-feather="phone" style="width: 20px; " class=""></i> (+86) 131 673 712 33</p>
+                        </div>
+                    </div>
+                </div>    
+            </section>
+        <!-- </div> -->
+    </main>
+    <footer class="py-5 bg-dark text-white">
+        <p class="text-center m-0 mb-3">GUANXI INDUSTRIES</p>
+        <p class="text-center m-0">Copyright <a href="https://ci.linkedin.com/in/assale-franck-tanoh" target="_blank" class="text-white text-decoration-none copyright">&#xa9</a> 2023</p>
     </footer>
     <script>
         feather.replace()
@@ -380,7 +212,7 @@
     <script>
         $(document).ready(function(){
   $('.slider').slick({
-    slidesToShow: 4, // Nombre d'icônes à afficher à la fois
+    slidesToShow: 3, // Nombre d'icônes à afficher à la fois
     slidesToScroll: 1,
     autoplay: true, // Défilement automatique
     autoplaySpeed: 1500, // Délai entre chaque défilement (en millisecondes)
@@ -391,6 +223,7 @@
 });
 
     </script>
+    
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
 </body>

@@ -1,2 +1,2 @@
-# SICEC
-Build Africa today and tomorrow
+# Guanxi_Industries
+site officiel de guanxi industries
