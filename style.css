@@ -26,9 +26,16 @@ header {
 }
 
 
-.custom-h-100 {
-    height: 97vh;
+@media (max-width: 767.98px) {
+    header {
+        background-position: center;
+        background-size: cover; 
+    }
+    .custom-h-100 {
+        height: 97vh;
+    }
 }
+
 .vision-h {
     height: 60vh;
 }
@@ -46,6 +53,11 @@ strong {
 .custom-h-50{
     height: 50vh !important;
 }
+
+.responsive-h-100 {
+    height: 100%;
+}
+
 
 .bg-silver {
     background-color: #f2f2f2;
@@ -66,5 +78,14 @@ strong {
     header {
         background-position: center;
         background-size: cover; 
+    }
+    .responsive-h-100 {
+        height: 50% !important;
+    }
+}
+@media (min-width: 768px) {
+    
+    .p-w {
+        width: 75%;
     }
 }
