@@ -14,6 +14,8 @@
     <link href="//fonts.googleapis.com/css?family=Roboto|Open+Sans:200,300,400,700,800,900&amp;subset=latin" rel="preload" as="font">
     <!-- Flather Icons -->
     <script src="https://unpkg.com/feather-icons"></script>
+    <!-- bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <!-- script animation -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -22,7 +24,8 @@
 </head>
 <body>
     <header class="p-0 m-0">
-        <div class="container-fluid h-100 text-white m-0 p-0">
+        <div class="container-fluid h-100 text-white m-0 p-0 d-flex flex-column justify-content-between">
+
             <nav class="navbar navbar-expand-lg bg-body-tertiary w-100">
                 <div class="container-fluid p-0">
                     <img src="./assets/partenaire/guanxi_industry.png" alt="logo Guanxi industries" width="100" height="60" class="p-0">
@@ -54,158 +57,41 @@
                         </ul>
                     </div>
                 </div>
-              </nav>
-            <div class="row m-0 p-0 flex-column h-75 justify-content-end">
-                <!-- <div class="col-12 col-md-8">
-                    <img src="./assets/partenaire/guanxi_industry.png" alt="logo Guanxi industries" class="img-fluid">
-                </div> -->
-                <div class="col-10 col-md-5">
-                    <h2 class="display-1 text-uppercase fw-bolder">your industrial support</h2>
+            </nav>
+            <div class="row m-0 p-0 flex-column h-75 justify-content-around mt-auto">
+                <div class="col-12">
+                    <h2 class="display-1 text-uppercase fw-bold text-center text-shadow">tout ce dont <br> vous <br> avez besoin</h2>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <a href="" class="custom-btn"><i class="bi bi-cart me-2"></i>Commander</a>
+                </div>
+                <div class="d-flex custom-h-25 justify-content-center align-items-center">
+                    <a href="" class="bouton-rond"><i class="bi bi-chevron-down"></i></a>
                 </div>
             </div>
         </div>
     </header>
+
     <main>
-        <!-- <div class="container-fluid"> -->
-
-            <!--                        A PROPOS                           -->
-            <section id="about" class="custom-h-100 m-0 p-0 mt-md-5 bord">
-                <div class="row flex-column w-100 m-0 p-0 flex-md-row">
-                    <div class="col-12 col-md-7 img-about custom-h-50">
-                        <!-- <img src="./assets/ilustrations/img_8.jpg" alt="illustration" class="img-fluid"> -->
-                    </div>
-                    <div class="col-12 col-md-5 p-3 pb-0 border d-md-flex flex-md-column justify-content-md-center">
-                        <h2 class="text-center text-capitalize mb-4">A propos de <br><span class="fw-bolder text-danger ">GUANXI INDUSTRIES</span></h2>
-                        <p class="text-justify">
-                            <strong>GUANXI INDUSTRIES</strong> est la branche industrielle du groupe <strong>GUANXI MANAGEMENT</strong> 
-                            basé en Chine et présent dans plusieurs pays en Afrique. <br>
-                            Doté d'un patenariat solide avec des usines chinoises, nous assurons avec une équipe d'ingénieurs et de techniciens 
-                            chinois et africains, la production, la fourniture et la maintenance d'équipement et machines industriels.
-                        </p>
-                    </div>
-                </div>
-            </section>
-
-            <!--                       POURQUOI NOUS CHOISIR                           -->
-            <section id="why_us" class="bg-silver border-silver py-4">
-                <div class="row m-0 p-0">
-                    <div class="col-12">
-                        <h2 class="text-capitalize text-center fw-bolder">pourquoi nous choisir ?</h2>
-                        <p class="text-center fst-italic">Fournisseur N°1 d'equipement industriels <br> <span class="text-danger">Made in China</span></p>
-                    </div>
-                    <div class="col-10 d-flex flex-wrap bord mx-auto">
-                        <div class="col-12 col-md-6 d-flex flex-row m-0 p-0 justify-content-center">
-                            <div class="col-4">
-                                <img src="./assets/icon/icon.png" alt="" class="img-fluid">
-                            </div>
-                            <div class="col-7 d-flex justify-content-center align-items-center">
-                                <p class="text-center">un réseau solide de partenaire Chinois</p>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 d-flex flex-row m-0 p-0 my-3 justify-content-center">
-                            <div class="col-4 ">
-                                <img src="./assets/icon/icon.png" alt="" class="img-fluid">
-                            </div>
-                            <div class="col-7 d-flex justify-content-center align-items-center">
-                                <p class="text-center">Un savoir faire confirmé</p>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 d-flex flex-row m-0 p-0 justify-content-center">
-                            <div class="col-4">
-                                <img src="./assets/icon/icon.png" alt="" class="img-fluid">
-                            </div>
-                            <div class="col-7 d-flex justify-content-center align-items-center">
-                                <p class="text-center">Un service orienté client</p>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 d-flex flex-row justify-content-center m-0 p-0 mt-3">
-                            <div class="col-4">
-                                <img src="./assets/icon/icon.png" alt="" class="img-fluid">
-                            </div>
-                            <div class="col-7 d-flex justify-content-center align-items-center">
-                                <p class="text-center">La meilleure rapport qualité-prix</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--                       PRODUITS                           -->
         
-            <section id="product" class="py-3">
-                <div class="container-fluid">
-                    <h2 class="text-center text-uppercase mb-3">Que desirez-vous ?</h2>
-                    <div class="row slider d-flex align-items-center  flex-nowrap flex-row m-0 p-0">
-                        <div class="col-sm-3 col-4 me-2"><img src="./assets/partenaire/guanxi_managment.png" alt="Icon 1" class="img-fluid"></div>
-                        <div class="col-sm-3 col-4 me-2"><img src="./assets/partenaire/guanxi_industry.png" alt="Icon 1" class="img-fluid"></div>
-                        <div class="col-sm-3 col-4 me-2"><img src="./assets/partenaire/EACCI.png" alt="Icon 1" class="img-fluid"></div>
-                        <div class="col-sm-3 col-4 me-2"><img src="./assets/partenaire/Logo-sino-afrique-mag.png" alt="Icon 1" class="img-fluid"></div>
-                        <div class="col-sm-3 col-4 me-2"><img src="./assets/partenaire/g2i.png" alt="Icon 1" class="img-fluid"></div>
-                        <div class="col-sm-3 col-4 me-2"><img src="./assets/partenaire/wietc.png" alt="Icon 1"  class="img-fluid"></div>
-                        <!-- Ajoutez davantage de divs pour les autres icônes -->
-                    </div>
+        <!--        A PROPOS            -->
+        <section id="about" class="custum-h-about">
+            <div class="row p-0 m-0 h-100 justify-content-md-center align-items-center">
+                <div class="col-12 col-md-3 d-flex justify-content-center custom-about-h">
+                    <img src="./assets/ilustrations/prix.png" alt="fournisseur n°1 d'équipement made in China" class="img-fluid mx-auto">
                 </div>
-            </section>
-
-            <!--                    NOTRE VISION               -->
-            <section id="vision" class="vision-h bg-pink">
-                <div class="row flex-column h-100 p-0 m-0 d-md-flex flex-md-row">
-                    <div class="col-12 col-md-4 h-50 img-about bord order-md-2 responsive-h-100">
-                        <!-- <img src="./assets/ilustrations/img_8.jpg" alt="ilustration" class="img-fluid"> -->
-                    </div>
-                    <div class="col-12 col-md-8 py-3 bord d-md-flex flex-md-column justify-content-md-center">
-                        <h2 class="text-center text-capitalize mb-4">Notre vision</h2>
-                        <div class="col-12 col-md-6 mx-auto">
-                            <p class="text-justify">Passionnés par l'Afrique et son développement, <span>GUANXI INDUSTRIES</span> ambtionne de contribuer à l'industrialisation de l'Afrique dans un partenariat <span>gagnant-gagnant avec la Chine.</span></p>
-                        </div>
-                    </div>
+                <div class="col-12 col-md-4 mb-2 d-flex flex-column justify-content-center align-items-center">
+                    <h4 class="text-center fst-italic">Fournisseur N°1 d'équipement <br> <span class="text-danger">Made in China</span></h4>
+                    <p class="text-center mb-4 ">Des solutions adaptées à tous vos besoin</p>
+                    <a href="" class="custom-btn-sm bord ">En savoir plus</a>
                 </div>
-            </section>
-
-            <!--                    NOS PARTENAIRE                -->
-            <section id="slider" class="py-3">
-                <div class="container-fluid">
-                    <h3 class="text-center text-uppercase">Nos partenaires</h3>
-                    <div class="row slider d-flex align-items-center  flex-nowrap flex-row m-0 p-0">
-                        <div class="col-sm-3 col-4 me-2"><img src="./assets/partenaire/guanxi_managment.png" alt="Icon 1" class="img-fluid"></div>
-                        <div class="col-sm-3 col-4 me-2"><img src="./assets/partenaire/guanxi_industry.png" alt="Icon 1" class="img-fluid"></div>
-                        <div class="col-sm-3 col-4 me-2"><img src="./assets/partenaire/EACCI.png" alt="Icon 1" class="img-fluid"></div>
-                        <div class="col-sm-3 col-4 me-2"><img src="./assets/partenaire/Logo-sino-afrique-mag.png" alt="Icon 1" class="img-fluid"></div>
-                        <div class="col-sm-3 col-4 me-2"><img src="./assets/partenaire/g2i.png" alt="Icon 1" class="img-fluid"></div>
-                        <div class="col-sm-3 col-4 me-2"><img src="./assets/partenaire/wietc.png" alt="Icon 1"  class="img-fluid"></div>
-                    </div>
-                </div>
-            </section>
-            <!-- Ajoutez davantage de divs pour les autres icônes -->
-
-            <!--                    NOUS CONTACTER                -->
-            <section id="contact" class="py-4 bg-silver">
-                <div class="row flex-column m-0 p-0 bord flex-md-row">
-                    <h2 class="text-center text-capitalize mb-3">Contactez nous</h2>
-                    <div class="col-12 col-md-6 d-flex flex-row bord">
-                        <div class="col-2 col-md-1 bord">
-                            <i data-feather="map-pin" style="width: 100%; height: 100px; color: brown;" class=""></i>
-                        </div>
-                        <div class="col-10 bord">
-                            <h4 class="text-uppercase text-center fs-6 fw-bold">côte d'ivoire</h4>
-                            <p class="m-0 ms-3 p-0"><i data-feather="map" style="width: 20px; " class=""></i> Abidjan; Plateau Bd. Angoulvant</p>
-                            <p class="m-0 ms-3 p-0"><i data-feather="phone" style="width: 20px; " class=""></i> (+225) 07 052 198 / 05 85 363 454</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 d-flex flex-row border border-danger">
-                        <div class="col-2 col-md-1 bord">
-                            <i data-feather="map-pin" style="width: 100%; height: 100px; color: brown;" class=""></i>
-                        </div>
-                        <div class="col-10 bord">
-                            <h4 class="text-uppercase text-center fs-6 fw-bold">chine</h4>
-                            <p class="m-0 ms-3 p-0 bord mb-2 p-w mx-md-auto"><i data-feather="map" style="width: 20px; " class=""></i> 11 Floor, Jin She Liu RVd, Guangzhou; 510060</p>
-                            <p class="m-0 ms-4 p-0 bord mb-2 p-w mx-md-auto"><i data-feather="phone" style="width: 20px; " class=""></i> (+86) 131 673 712 33</p>
-                        </div>
-                    </div>
-                </div>    
-            </section>
-        <!-- </div> -->
+            </div>
+        </section>
+    
+        
     </main>
+
+
     <footer class="py-5 bg-dark text-white">
         <p class="text-center m-0 mb-3">GUANXI INDUSTRIES</p>
         <p class="text-center m-0">Copyright <a href="https://ci.linkedin.com/in/assale-franck-tanoh" target="_blank" class="text-white text-decoration-none copyright">&#xa9</a> 2023</p>
@@ -215,16 +101,16 @@
     </script>
     <script>
         $(document).ready(function(){
-  $('.slider').slick({
-    slidesToShow: 3, // Nombre d'icônes à afficher à la fois
-    slidesToScroll: 1,
-    autoplay: true, // Défilement automatique
-    autoplaySpeed: 1500, // Délai entre chaque défilement (en millisecondes)
-    infinite: true, // Défilement infini
-    prevArrow: false, // Masquer la flèche précédente
-    nextArrow: false // Masquer la flèche suivante
-  });
-});
+            $('.slider').slick({
+                slidesToShow: 3, // Nombre d'icônes à afficher à la fois
+                slidesToScroll: 1,
+                autoplay: true, // Défilement automatique
+                autoplaySpeed: 1500, // Délai entre chaque défilement (en millisecondes)
+                infinite: true, // Défilement infini
+                prevArrow: false, // Masquer la flèche précédente
+                nextArrow: false // Masquer la flèche suivante
+            });
+        });
 
     </script>
     
