@@ -26,7 +26,7 @@ $(document).ready(function(){
         if ($(window).width() >= 768) {
             return 5; // Afficher 3 cartes sur les écrans larges
         } else {
-            return 3; // Afficher 1 carte sur les écrans étroits
+            return 2; // Afficher 1 carte sur les écrans étroits
         }
     }
 });
