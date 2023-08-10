@@ -6,10 +6,50 @@ body {
 
 
 .bg-1, .bg-2, .bg-3, .bg-4 {
+    height: 100% !important;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; 
 }
+.carousel-indicators-custum {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+}
+.carousel-indicators-custum [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: 0.5;
+    transition: opacity 0.6s ease;
+}
+@media (prefers-reduced-motion: reduce) {
+    .carousel-indicators-custum [data-bs-target] {
+        transition: none;
+    }
+}
+  .carousel-indicators-custum .active {
+    opacity: 1;
+  }
 .bg-1 {
     background-image: url('../products/main-cover.jpg');
 }
@@ -33,10 +73,10 @@ h2 span {
   font-size: 2.5rem;
 }
 
-li p {
+li p, .invite {
   font-weight: lighter;
 }
-ol p, ol span{
+ol p, ol span, .invite{
   font-size: large;
 }
 
@@ -53,13 +93,19 @@ ol p, ol span{
     .featurette-divider {
         margin: 2rem 0 !important;
     }
-  .lh-1 {
-    /* font-size: 50px; */
-    font-size: 3rem;
-  }
-  h2 span {
-    font-size: 2.5rem;
-  }
+    .lh-1 {
+        /* font-size: 50px; */
+        font-size: 3rem;
+    }
+    h2 span {
+        font-size: 2.5rem;
+    }
+    .bg-1, .bg-2, .bg-3, .bg-4 {
+        height: 90% !important;
+    }
+    .carousel-indicators-custum {
+        bottom: 3rem;
+    }
 }
 @media (min-width: 768px) {
     .bd-placeholder-img-lg {

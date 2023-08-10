@@ -1,0 +1,48 @@
+#description p {
+    text-align: start;
+
+}
+
+nav {
+    position: -webkit-sticky;
+    position: sticky !important;
+    top: 0;
+}
+
+/* .descrip-h {
+    height: 30vh;
+} */
+.descrip-h img{
+    height: 80%;
+}
+img {
+    filter: contrast(200%);
+}
+.fs-custum {
+    /* font-size: calc(1.275rem + 0.3vw) !important; */
+    font-size: 1.25rem !important;
+}
+
+.w30 {
+    width: 32%;
+}
+h2 {
+    font-weight: bolder;
+}
+
+
+@media (max-width: 767.9px) {
+
+    .descrip-h {
+        margin: 0 auto;
+    }
+    #description p {
+        text-align: justify;
+    }
+    .organisation {
+        height: 25vh;
+    }
+    /* .fs-custum {
+        font-size: 1.25rem !important;
+    } */
+}
