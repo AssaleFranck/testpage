@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/contact.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> -->
+    <link href="//fonts.googleapis.com/css?family=Roboto|Open+Sans:200,300,400,700,800,900&amp;subset=latin" rel="preload" as="font">
+    <!-- Flather Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.9.2/css/flag-icons.min.css"/>
+    <!-- <script src="https://unpkg.com/feather-icons"></script> -->
+    <!-- bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- script animation -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+    <title>Contactez nous | GUANXI INDUSTRIES</title>
+</head>
+<body>
+
+    <!-- BOUTON UP -->
+    <a href="#carousel" class="up-btn" id="up-btn">
+        <i class="bi bi-chevron-up"></i>
+    </a>
+
+
+    <header class="w-100">
+        <!-- <div class="info">
+            <span><i class="bi bi-telephone ms-3 me-2"></i></span>
+            <ul class="d-flex w-auto justify-content-between align-items-center m-0 border">
+                <li><span class="fi fi-ci me-1"></span> (+225) 07 890 521 98</li>
+                <li><span class="fi fi-cn me-1 ms-3 ms-md-4"></span> (+86) 07 131 6737 1233</li>
+            </ul>
+        </div> -->
+        <nav class="navbar navbar-expand-lg navbar-height fixed w-100 px-0 nav-bg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/logo/Logo_Guanxi_Industrie_sm.png" alt="Bootstrap" class="img-size">
+                </a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto me-lg-0 mb-2 mb-lg-0 w75 d-lg-flex justify-content-lg-evenly">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Accueil</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Nos produits
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./marketplace">Mine</a></li>
+                                <li><a class="dropdown-item" href="./marketplace">ENERGIE</a></li>
+                                <li><a class="dropdown-item" href="./marketplace">AGRO-INDUSTRIE</a></li>
+                                <li><a class="dropdown-item" href="./marketplace">MATERIELS INDUSTRIELS</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Nos Solution
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./solution.html">Accueil</a></li>
+                                <li><a class="dropdown-item" href="./solution.html#maintenance">Maintenance</a></li>
+                                <li><a class="dropdown-item" href="./solution.html#sav">SAV</a></li>
+                                <li><a class="dropdown-item" href="./solution.html#fourniture">Fournirture d'Equipement et Materiél</a></li>
+                                <li><a class="dropdown-item" href="./solution.html#formations">Formations Produits</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Nous Contacter</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about.html">A propos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <sction id="commande" >
+            <div class="row justify-content-center mb-5 mt-3 mt-md-0">
+                <h1 class="text-capitalize display-3 fw-bold text-center mb-4">Contactez Nous</h1>
+                <div class="col-12 col-md-8">
+                    <form action="#" class="w-100 h-100 d-flex flex-wrap justify-content-center">
+                        <div class="col-11 mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Nom et Prenoms</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
+                        </div>
+                        <div class="col-11 d-flex flex-wrap mb-3">
+                            <div class="col-11 col-lg-5 me-lg-auto">
+                                <label for="exampleFormControlInput1" class="form-label">Adresse E-mail</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                            </div>
+                            <div class="col-11 col-lg-5">
+                                <label for="exampleFormControlInput1" class="form-label">Mobile</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="225 00 00 00 00 00" min="0">
+                            </div>
+                        </div>
+                        <div class="col-11 mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">
+                                Message 
+                            </label>
+                            <!-- <button type="button" class="btn btn-secondary"
+                                data-bs-toggle="tooltip" data-bs-placement="top"
+                                data-bs-custom-class="custom-tooltip"
+                                data-bs-title="vous pouvez egalement passer commange">
+                                mjjhsql
+                            </button>
+                            <i class="bi bi-info-circle text-danger" data-bs-toggle="tooltip" data-bs-placement="top"
+                            data-bs-custom-class="custom-tooltip"
+                            data-bs-title="vous pouvez egalement passer commange"></i> -->
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="mb-3 col-11 d-flex justify-content-center">
+                            <button class="custom-btn-sm">Envoyer</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-12 col-md-6"></div>
+            </div>
+        </sction>
+        <section id="conatact">
+            <div class="row justify-content-evenly mb-5">
+                <div class="col-10 col-md-3 py-md-4 card-info">
+                    <h2><i class="bi bi-telephone"></i> Appelez Nous</h2>
+                    <ul class="d-flex w-auto m-0">
+                        <li class="mb-2"><span class="fi fi-ci me-2"></span> (+225) 07 890 521 98</li>
+                        <li><span class="fi fi-cn me-2"></span> (+86) 07 131 6737 1233</li>
+                        <li class="mt-3"><i class="bi bi-envelope me-2"></i></span> info@guanxigroupe.com</li>
+                    </ul>
+                </div>
+                <div class="col-10 col-md-3 py-md-4 card-info my-3 my-md-0">
+                    <h2><i class="bi bi-geo-alt"></i> Adresse</h2>
+                    <ul class="d-flex w-auto m-0">
+                        <li class="mb-2"><span class="fi fi-cn me-1"></span> Guangzhou 510060-P .R CHINA</li>
+                        <li class="text-center"><span class="fi fi-ci me-1"></span> Abidjan, Plateau Bd. Angoulvant <br>République <span class="text-uppercase">Côte d'Ivoire</span></li>
+                    </ul>
+                </div>
+                <div class="col-10 col-md-3 py-md-4 card-info">
+                    <h2><i class="bi bi-clock"></i> Horaire</h2>
+                    <ul class="d-flex w-auto m-0">
+                        <li class="mb-2"> Lundi - Vendredi </li>
+                        <li>9h00 - 17h00</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="pt-5 pb-4 bg-dark text-white">
+        <div class="container-fluid">
+            <div class="row p-0 m-0 mb-4">
+                <div class="col-12 col-md-6 d-flex justify-content-center mb-4">
+                    <img src="./assets/logo/Guanxi-industrie-bg.jpg" alt="logo guanxi_industry" class="img-fluid logo">
+                    <!-- <img src="./assets/logo/Guanxi-industrie-bg.jpg" alt="logo guanxi_industry" class="img-fluid"> -->
+                </div>
+                <div class="col-12 col-md-6 d-flex my-4 p-0">
+                    <div class="col-4 p-0">
+                        <ul class="list-group bg-dark">
+                            <li class="list-group-item list-title text-shadow">Pages</li>
+                            <li><a href="#" class="list-group-item list-group-dark">Accueil</a></li>
+                            <li><a href="#" class="list-group-item list-group-dark">Nos Produits</a></li>
+                            <li><a href="#" class="list-group-item list-group-dark">Nous Contacter</a></li>
+                            <li><a href="./about.html" class="list-group-item list-group-dark">A Propos</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-4">
+                        <ul class="list-group bg-dark">
+                            <li class="list-group-item list-title text-shadow">Nos Produits</li>
+                            <li><a href="./marketplace" class="list-group-item list-group-dark">Mine</a></li>
+                            <li><a href="./marketplace" class="list-group-item list-group-dark">Energie</a></li>
+                            <li><a href="./marketplace" class="list-group-item list-group-dark">Agro-industrie</a></li>
+                            <li><a href="./marketplace" class="list-group-item list-group-dark">Materiels Industriels</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-4">
+                        <ul class="list-group bg-dark">
+                            <li><a href="./solution.html" class="list-group-item list-title text-shadow">Nos Solutions</a></li>
+                            <li><a href="./solution.html#maintenance" class="list-group-item list-group-dark">Maintenance</a></li>
+                            <li><a href="./solution.html#sav" class="list-group-item list-group-dark">SAV</a></li>
+                            <li><a href="./solution.html#fourniture" class="list-group-item list-group-dark">Formations</a></li>
+                            <li><a href="./solution.html#formations" class="list-group-item list-group-dark">Fourniture d’équipement et matériel</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row border-top p-0 pt-3 m-0 d-flex align-items-center justify-content-around">
+                <p class="text-center m-0 p-0 w-auto order-2 order-md-0 mt-3 mt-md-0">GUANXI INDUSTRIES <span class="mx-2">|</span> Copyright <a href="https://ci.linkedin.com/in/assale-franck-tanoh" target="_blank" class="text-white text-decoration-none copyright"> <i class="bi bi-c-circle mx-1"></i></a> 2023</p>
+                <ul class="d-flex flex-column flex-md-row w-auto m-0">
+                    <li><span class="fi fi-ci me-1"></span> (+225) 07 890 521 98</li>
+                    <li><span class="fi fi-cn me-1 my-3 my-md-auto ms-md-4"></span> (+86) 07 131 6737 1233</li>
+                    <li><i class="bi bi-envelope me-1 ms-md-4"></i></span> info@guanxigroupe.com</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Custum script -->
+    <script src="./assets/js/accordion.js"></script>
+    <script src="./assets/js/scrollbar.js"></script>
+    <script src="./assets/js/basic-slide.js"></script>
+    <script src="./assets/js/card-slide.js"></script>
+    <script src="./assets/js/card-slider.js"></script>
+    <script src="./assets/js/overlay.js"></script>
+    <script src="./assets/js/slider-tabs.js"></script>
+    <script src="./assets/js/btn-up.js"></script>
+    <!-- Boostrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+</body>
+</html>
