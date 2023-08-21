@@ -1,8 +1,25 @@
+@font-face {
+    font-family: 'myfont';
+    src: url('../fonts/Bahnschrift/bahnschrift.ttf') format('truetype');
+    /* src: url('./assets/fonts/Bahnschrift/BAHNSCHRIFT.TTF') format('truetype'); */
+    /* Ajoutez des règles pour les autres formats de fichiers si vous les avez */
+}
+@font-face {
+    font-family: 'tnr';
+    src: url('../fonts/Times-New-Roman/times-new-roman.ttf') format('truetype');
+    /* src: url('./assets/fonts/Bahnschrift/BAHNSCHRIFT.TTF') format('truetype'); */
+    /* Ajoutez des règles pour les autres formats de fichiers si vous les avez */
+}
+
 * {
     margin: 0;
     padding: 0;
 }
 
+body {
+    font-family: 'myfont', sans-serif;
+    font-style: bold;
+}
 .row {
     margin: 0;
     padding: 0;
@@ -10,22 +27,6 @@
 
 h2 {
     text-transform: uppercase;
-}
-
-/* #products {
-    overflow-x: hidden;
-} */
-
-@font-face {
-    font-family: 'myfont';
-    src: url('../fonts/Bahnschrift/bahnschrift.ttf') format('truetype');
-    /* src: url('./assets/fonts/Bahnschrift/BAHNSCHRIFT.TTF') format('truetype'); */
-    /* Ajoutez des règles pour les autres formats de fichiers si vous les avez */
-}
-  
-body {
-    font-family: 'myfont', sans-serif;
-    font-style: bold;
 }
 
 .info {
@@ -53,7 +54,10 @@ h5 {
     text-transform: uppercase;
 }
 
-
+/* .carousel-item h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+} */
 
 
 
@@ -147,7 +151,7 @@ h5 {
 
 /* -------------------- COMPONENT ------------------- */
 
-.logo {
+.filter {
     filter: contrast(200%);
 }
 header {
@@ -289,6 +293,7 @@ header {
   
 .accordion-btn {
     background-color: #f1f1f1;
+    font-weight: bolder;
     color: #333;
     cursor: pointer;
     padding: 12px;
@@ -345,10 +350,16 @@ header {
 
 /* ----------- CARDS ----------- */
 
+.card-offre {
+    height: 65vh !important;
+}
 .card-title {
     color: red;
 }
-
+.card-img-top {
+    width: 100%;
+    height: 100%;
+}
 .custom-card-w {
     width: 7% !important;
 }
@@ -511,7 +522,16 @@ header {
     justify-content: space-between;
     align-items: baseline;
     width: 100%;
-    
+}
+.custum-card-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+}
+.custum-card-2 p {
+    font-weight: normal;
 }
 
 .body-card-2 {
@@ -523,7 +543,13 @@ header {
     padding-left: 0.5rem !important;
     height: 20%;
 }
+.slick-list {
+    height: 100%;
+}
 
+.text-why {
+    width: 75%;
+}
 .card-why {
     height: 100%;
 }
@@ -695,7 +721,7 @@ footer img {
     }
 
     .custom-w-titre {
-        width: 75% !important;
+        width: 43% !important;
     }
 
     .slick-prev {
@@ -753,6 +779,15 @@ footer img {
         clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
         /* filter: drop-shadow(0 0 0.75rem crimson); */
     }
+    .card-offre {
+        height: 45vh !important;
+    }
+
+
+    .text-why {
+        width: 95%;
+    }
+
     /* --------------------------------- */
     .newsletter-p-w {
         width: 90%;
@@ -778,6 +813,10 @@ footer img {
 
 
 @media (min-width: 768px) {
+
+    .slogan {
+        width: 70%;
+    }
     .custom-about-h {
         height: 100% !important;
     }
@@ -831,12 +870,13 @@ footer img {
 
 /* ------------ for background --------------- */
 .nav-bg {
-    background-color: #ffffffa5;
+    /* background-color: #ffffffa5; */
+    background-color: #fff;
     transition: border-bottom 1s, background-color 1s ease-in;
 }
 
 .nav-bg-scroll {
-    background-color: #fff;
+    /* background-color: #fff; */
     border-bottom: 1px solid black;
     
 }

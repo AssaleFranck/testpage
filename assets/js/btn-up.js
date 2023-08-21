@@ -5,7 +5,7 @@ function applyCodeBasedOnScreenWidth() {
     if (screenWidth < 768) {
         window.addEventListener('scroll', function() {
             var scrollTopBtn = document.getElementById('up-btn');
-            if (window.scrollY > 30 * window.innerHeight / 100) {
+            if (window.scrollY > 10 * window.innerHeight / 100) {
               scrollTopBtn.classList.add('active');
             } else {
               scrollTopBtn.classList.remove('active');
@@ -20,7 +20,6 @@ function applyCodeBasedOnScreenWidth() {
               scrollTopBtn.classList.remove('active');
             }
         });
-      console.log("Écran large");
     }
   }
   

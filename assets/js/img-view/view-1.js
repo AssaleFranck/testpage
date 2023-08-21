@@ -1,21 +1,3 @@
-// const thumbnails = document.querySelectorAll('.thumbnail');
-// const mainImage = document.querySelector('.main-image');
-
-// thumbnails.forEach(thumbnail => {
-//   thumbnail.addEventListener('click', () => {
-//       const imageURL = thumbnail.getAttribute('src');
-//       mainImage.innerHTML = `<img src="${imageURL}" alt="Image en grand">`;
-
-//       // Réinitialiser les autres images
-//       thumbnails.forEach(otherThumbnail => {
-//           if (otherThumbnail !== thumbnail) {
-//               otherThumbnail.classList.remove('selected');
-//           }
-//       });
-      
-//       thumbnail.classList.add('selected');
-//   });
-// });
 
 const thumbnails = document.querySelectorAll('.thumbnail');
 const mainImage = document.querySelector('.main-image');
@@ -46,7 +28,6 @@ document.addEventListener('click', event => {
         thumbnails.forEach(thumbnail => {
             thumbnail.classList.remove('selected');
         });
-        console.log('yes');
     }
 });
 
