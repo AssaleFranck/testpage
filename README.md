@@ -15,6 +15,7 @@ Page
 2. Gallery v1.0.0
 4. Contact v1.0.0
 5. About v1.0.0
+6. Marketplace
 
 ----------------------------
 
@@ -52,4 +53,10 @@ v1.0.0 creat
 # About
 
 v1.0.0 creat
+
+----------------------------
+
+# Marketplace (Nos solutions)
+
+v1.0.0 creat(in build)
 
