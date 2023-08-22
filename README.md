@@ -3,6 +3,7 @@ site officiel de guanxi industries
 
 1. spelling Guanxi_Industries v2.0.1
 2. page gallery done v2.1.0
+3. bug fix and footer v2.2.0
 
 
 
