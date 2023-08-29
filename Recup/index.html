@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> -->
+    <link href="//fonts.googleapis.com/css?family=Roboto|Open+Sans:200,300,400,700,800,900&amp;subset=latin" rel="preload" as="font">
+    <!-- Flather Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.9.2/css/flag-icons.min.css"/>
+    <!-- <script src="https://unpkg.com/feather-icons"></script> -->
+    <!-- bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- script animation -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+    <link rel="icon" href="./assets/logo/shortcut.jpg" type="image/x-icon">
+    <title>GUANXI INDUSTRIES</title>
+</head>
+<body>
+
+    <!-- BOUTON UP -->
+    <a href="#carousel" class="up-btn" id="up-btn">
+        <i class="bi bi-chevron-up"></i>
+    </a>
+
+
+    <header class="w-100">
+        <!-- <div class="info">
+            <span><i class="bi bi-telephone ms-3 me-2"></i></span>
+            <ul class="d-flex w-auto justify-content-between align-items-center m-0 border">
+                <li><span class="fi fi-ci me-1"></span> (+225) 07 890 521 98</li>
+                <li><span class="fi fi-cn me-1 ms-3 ms-md-4"></span> (+86) 07 131 6737 1233</li>
+            </ul>
+        </div> -->
+        <nav class="navbar navbar-expand-lg navbar-height fixed w-100 px-0 nav-bg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./assets/logo/Logo_Guanxi_Industrie_sm.png" alt="Bootstrap" class="img-size filter">
+                </a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto me-lg-0 mb-2 mb-lg-0 w75 d-lg-flex justify-content-lg-evenly">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Accueil</a>
+                        </li>
+                        <!-- <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Nos solutions
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./marketplace.html">Mine</a></li>
+                                <li><a class="dropdown-item" href="./marketplace.html">ENERGIE</a></li>
+                                <li><a class="dropdown-item" href="./marketplace.html">AGRO-INDUSTRIE</a></li>
+                                <li><a class="dropdown-item" href="./marketplace.html">MATERIELS INDUSTRIELS</a></li>
+                            </ul>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="./marketplace.html">Nos solutions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./gallery.html">Nos produits</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Nos services
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./services.html">Home</a></li>
+                                <li><a class="dropdown-item" href="./services.html#maintenance">Maintenance</a></li>
+                                <li><a class="dropdown-item" href="./services.html#sav">SAV</a></li>
+                                <li><a class="dropdown-item" href="./services.html#fourniture">Fournirture d'Equipement et Materiél</a></li>
+                                <li><a class="dropdown-item" href="./services.html#formations">Formations Produits</a></li>
+                            </ul>
+                        </li>
+                       
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">Nous contacter</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about.html">A propos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="up">
+        <!--        CAROUSEL            -->
+        <section id="carousel">
+            <div class="container-fluid p-0 m-0 carousel-height">
+                <div id="carouselExampleCaptions" class="carousel carousel-fade slide h-100" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner h-100">
+                        <div class="carousel-item active h-100 carousel-bg carousel-bg-1" data-bs-interval="5000">
+                            <div class="bg-placeholder"></div>
+                            <div class="carousel-caption-custum d-none d-md-block">
+                                <h1 class="text-uppercase fw-bolder mb-5 ">Qualité, Coût, Confiance : <br> Guanxi Industries <br> Redéfinit l'Approvisionnement</h1>
+                                <!-- <h1 class="text-uppercase display-1 mb-5 fw-bold"> Tout ce dont vous avez besoins</h1> -->
+                                <div class="col-12 col-md-6 d-flex justify-content-evenly mx-auto">
+                                    <a href="#about" class="custom-btn-sm-2"><i class="bi bi-info-lg me-2"></i>en savoir plus</a>
+                                    <a href="" class="custom-btn-sm-2"><i class="bi bi-cart me-2"></i>Commander</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item h-100 carousel-bg carousel-bg-2" data-bs-interval="5000">
+                            <div class="bg-placeholder"></div>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Second slide label</h5>
+                                <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item h-100 carousel-bg carousel-bg-3" data-bs-interval="5000">
+                            <div class="bg-placeholder"></div>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        
+        <!--        A PROPOS            -->
+        <section id="about" class="custum-h-about">
+            <div class="row p-0 m-0 h-100 justify-content-md-center align-items-center">
+                <div class="col-12 col-md-3 d-flex justify-content-center custom-about-h">
+                    <img src="./assets/ilustrations/prix.png" alt="fournisseur n°1 d'équipement made in China" class="img-fluid mx-auto">
+                </div>
+                <div class="col-12 col-md-4 mb-2 d-flex flex-column justify-content-center align-items-center">
+                    <h4 class="text-center fst-italic">Fournisseur N°1 d'équipement <br> <span class="text-danger">Made in China</span></h4>
+                    <p class="text-center mb-4 ">Des solutions adaptées à tous vos besoins</p>
+                    <a href="./about.html" class="custom-btn-sm">En savoir plus</a>
+                </div>
+            </div>
+        </section>
+        
+        <!--        NOS PRODUITS        -->
+        <section id="products" class=" pt-4 pb-5">
+        <!-- <section id="products" class="bg-silver pt-4 pb-5"> -->
+            <div class="d-flex flex-column justify-content-center">
+                <h2 class="text-center fw-bold title m-0">Nos Produits</h2>
+                <span class="m-0 mx-auto line-red"></span>
+            </div>
+            <p class="text-center my-4 slogan mx-auto fw-light fs-5">
+                Nous proposons une gamme d'équipements industriels et de 
+                pièces de rechange de haute qualité, soigneusement sélectionnées 
+                pour répondre à vos exigences spécifiques, le tout à des tarifs 
+                compétitifs
+            </p>
+            <!-- <p class="text-center my-4">Nous fournissons des équipements  matériels et matériaux pour tous les secteurs et métiers quelque soit la taille</p> -->
+            
+            <!-- les categories -->
+            <div class="row justify-content-center vh-75">
+                <div class="col-12 col-md-11 accordion d-flex flex-column flex-md-row justify-content-md-between">
+                    <div class="accordion-item">
+                        <button class="accordion-btn">MINE</button>
+                        <div class="accordion-content">
+                            <ul class="list-group list-group-flush ">
+                                <li class="list-group-item">Pelles et chargeuses sur pneus</li>
+                                <li class="list-group-item">Camions de transport minier</li>
+                                <li class="list-group-item">Foreuses</li>
+                                <li class="list-group-item">Concasseurs et broyeurs</li>
+                                <li class="list-group-item">Équipements de criblage et de séparation</li>
+                                <li class="list-group-item">Équipements de traitement des minéraux</li>
+                                <li class="list-group-item">Systèmes de transport par convoyeur</li>
+                                <li class="list-group-item">Équipements de sécurité minière</li>
+                                <li class="list-group-item">Équipements de forage directionnel</li>
+                                <li class="list-group-item">Systèmes de contrôle et de gestion minièr</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-btn">AGRO-INDUSTRIE</button>
+                        <div class="accordion-content">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item ">Machines de tri et de calibrage</li>
+                                <li class="list-group-item ">Convoyeurs et systèmes de manutention</li>
+                                <li class="list-group-item ">Équipements de nettoyage et de lavage</li>
+                                <li class="list-group-item ">Machines d'emballage</li>
+                                <li class="list-group-item ">Équipements de transformation alimentaire</li>
+                                <li class="list-group-item ">Machines d'extraction de jus et de pressage</li>
+                                <li class="list-group-item ">Équipements de conditionnement sous vide</li>
+                                <li class="list-group-item ">Équipements de fermentation et de fermentation contrôlée</li>
+                                <li class="list-group-item ">Machines de conditionnement et de palettisation</li>
+                                <li class="list-group-item ">Équipements de stockage et de conservation</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-btn">ENERGIE</button>
+                        <div class="accordion-content">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item ">Groupes électrogènes</li>
+                                <li class="list-group-item ">Turbines à gaz</li>
+                                <li class="list-group-item ">Panneaux solaires</li>
+                                <li class="list-group-item ">Systèmes de stockage d'énergie</li>
+                                <li class="list-group-item ">Équipements de contrôle et de surveillance</li>
+                                <li class="list-group-item ">Équipements de conversion d'énergie</li>
+                                <li class="list-group-item ">Équipements de gestion des déchets et du biogaz</li>
+                                <li class="list-group-item ">Équipements de distribution d'énergiee</li>
+                                <li class="list-group-item ">Équipements de traitement des émissions</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-btn">MATERIELS INDUSTRIELS</button>
+                        <div class="accordion-content">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item ">Outils de réparation et de réglage</li>
+                                <li class="list-group-item ">Instruments de mesure précis</li>
+                                <li class="list-group-item ">Machines outils</li>
+                                <li class="list-group-item ">Equipement de soudage</li>
+                                <li class="list-group-item ">Equipement de manutention</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Ajoutez d'autres sections ici -->
+                </div>
+            </div>
+
+            <!--        SECTION EN PROMO        -->
+            <div class="row ps-md-4 px-2 mb-4 mt-5">
+                <div class="col-12 bg-black custom-w-titre  d-flex justify-content-start align-items-center">
+                    <h2 class="p-0 pe-2 pb-1 pt-3 m-0 text-white text-uppercase promo">En promo</h2>
+                </div>
+                <span class="line-black w-100"></span>
+            </div>
+            <!-- all cards -->
+            <div class="row d-flex align-items-center flex-row flex-nowrap justify-content-around slider ps-md-4 m-0 p-0 en-promo">
+                
+                <!-- card produdt -->
+                <div class="col-11 col-md-3 p-0 me-md-3">
+                    <div class="card">
+                        <img src="./assets/products/four.jpg" class="card-img-top img-fluid rounded-0" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Nom du produit</h5>
+                            <p class="card-text text-center">Some quick example text to build on the Nom du produit and make up the bulk of the card's content.</p>
+                            <div class="d-flex justify-content-center">
+                                <a href="#" class="custom-btn-sm">commander</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <!-- card produdt -->
+                <div class="col-11 col-md-3 p-0 me-md-3">
+                    <div class="card">
+                        <img src="./assets/products/four.jpg" class="card-img-top img-fluid rounded-0" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Nom du produit</h5>
+                            <p class="card-text text-center">Some quick example text to build on the Nom du produit and make up the bulk of the card's content.</p>
+                            <div class="d-flex justify-content-center">
+                                <a href="#" class="custom-btn-sm">commander</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <!-- card produdt -->
+                <div class="col-11 col-md-3 p-0 me-md-3">
+                    <div class="card">
+                        <img src="./assets/products/four.jpg" class="card-img-top img-fluid rounded-0" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Nom du produit</h5>
+                            <p class="card-text text-center">Some quick example text to build on the Nom du produit and make up the bulk of the card's content.</p>
+                            <div class="d-flex justify-content-center">
+                                <a href="#" class="custom-btn-sm">commander</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <!-- card produdt -->
+                <div class="col-11 col-md-3 p-0 me-md-3">
+                    <div class="card">
+                        <img src="./assets/products/four.jpg" class="card-img-top img-fluid rounded-0" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Nom du produit</h5>
+                            <p class="card-text text-center">Some quick example text to build on the Nom du produit and make up the bulk of the card's content.</p>
+                            <div class="d-flex justify-content-center">
+                                <a href="#" class="custom-btn-sm">commander</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <!-- card produdt -->
+                <div class="col-11 col-md-3 p-0 me-md-3">
+                    <div class="card">
+                        <img src="./assets/products/four.jpg" class="card-img-top img-fluid rounded-0" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Nom du produit</h5>
+                            <p class="card-text text-center">Some quick example text to build on the Nom du produit and make up the bulk of the card's content.</p>
+                            <div class="d-flex justify-content-center">
+                                <a href="#" class="custom-btn-sm">commander</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                
+            </div>
+
+
+            <!--        SECTION TOP VENTE        -->
+            <div class="row ps-md-4 px-2 mb-4 mt-5">
+                <div class="col-12 bg-black custom-w-titre  d-flex justify-content-start align-items-center">
+                    <h2 class="p-0 pe-2 pb-1 pt-3 m-0 text-white text-uppercase vente">TOP VENTES</h2>
+                </div>
+                <span class="line-black w-100"></span>
+            </div>
+            <!-- all cards -->
+            <div class="row d-flex align-items-center flex-row flex-nowrap justify-content-around slider ps-md-4 m-0 p-0">
+                
+                <!-- card produdt -->
+                <div class="col-11 col-md-3 p-0 me-md-3">
+                    <div class="card">
+                        <img src="./assets/products/four.jpg" class="card-img-top img-fluid rounded-0" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Nom du produit</h5>
+                            <p class="card-text text-center">Some quick example text to build on the Nom du produit and make up the bulk of the card's content.</p>
+                            <div class="d-flex justify-content-center">
+                                <a href="#" class="custom-btn-sm">commander</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+
+                <!-- card produdt -->
+                <div class="col-11 col-md-3 p-0 me-md-3">
+                    <div class="card">
+                        <img src="./assets/products/four.jpg" class="card-img-top img-fluid rounded-0" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Nom du produit</h5>
+                            <p class="card-text text-center">Some quick example text to build on the Nom du produit and make up the bulk of the card's content.</p>
+                            <div class="d-flex justify-content-center">
+                                <a href="#" class="custom-btn-sm">commander</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+
+                <!-- card produdt -->
+                <div class="col-11 col-md-3 p-0 me-md-3">
+                    <div class="card">
+                        <img src="./assets/products/four.jpg" class="card-img-top img-fluid rounded-0" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Nom du produit</h5>
+                            <p class="card-text text-center">Some quick example text to build on the Nom du produit and make up the bulk of the card's content.</p>
+                            <div class="d-flex justify-content-center">
+                                <a href="#" class="custom-btn-sm">commander</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+
+                <!-- card produdt -->
+                <div class="col-11 col-md-3 p-0 me-md-3">
+                    <div class="card">
+                        <img src="./assets/products/four.jpg" class="card-img-top img-fluid rounded-0" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Nom du produit</h5>
+                            <p class="card-text text-center">Some quick example text to build on the Nom du produit and make up the bulk of the card's content.</p>
+                            <div class="d-flex justify-content-center">
+                                <a href="#" class="custom-btn-sm">commander</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <!-- card produdt -->
+                <div class="col-11 col-md-3 p-0 me-md-3">
+                    <div class="card">
+                        <img src="./assets/products/four.jpg" class="card-img-top img-fluid rounded-0" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Nom du produit</h5>
+                            <p class="card-text text-center">Some quick example text to build on the Nom du produit and make up the bulk of the card's content.</p>
+                            <div class="d-flex justify-content-center">
+                                <a href="#" class="custom-btn-sm">commander</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </section>
+
+        <!--        NOS OFFRES          -->
+        <section id="offres" class="pt-4 mb-5">
+            <div class="d-flex flex-column justify-content-center mb-5">
+                <h2 class="text-center fw-bold title m-0">Nos Services</h2>
+                <span class="m-0 mx-auto line-red"></span>
+            </div>
+            <!-- <p>Nous fournissons des produit pour tous les differents secteur de l'industrie</p> -->
+            
+            <div class="row">
+                
+                <!-- card 'offres' -->
+                <div class="col-11 col-md-4 col-xl-3 mx-auto mb-4 mb-md-0">
+                    <div class="card card-offre shadow h-100 rounded-0 mx-auto card-1">
+                        <img src="./assets/products/maintenance.jpg" class="card-img-top rounded-0" alt="...">
+                        <div class="body-card-offres overlay">
+                            <div class="d-flex justify-content-center flex-column">
+                                <h5 class="text-red text-center mb-3 text-shadow">Maintenance</h5>
+                                <span class="text-center">Voir plus</span>
+                            </div>
+                            <p class="card-text text-center description">
+                                Notre équipe expérimentée de professionnels de la maintenance est là pour vous 
+                                aider à garder vos machines en pleine efficacité et fonctionnalité.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 'offres' -->
+                <div class="col-11 col-md-4 col-xl-3 mx-auto mb-4 mb-md-0">
+                    <div class="card card-offre shadow h-100 rounded-0 mx-auto">
+                        <img src="./assets/products/sav.jpg" class="card-img-top img-fluid rounded-0" alt="...">
+                        <div class="body-card-offres overlay">
+                            <div class="d-flex justify-content-center flex-column">
+                                <h5 class="text-red text-center mb-3 text-shadow">SAV</h5>
+                                <span class="text-center">Voir plus</span>
+                            </div>
+                            <p class="card-text text-center description">
+                                nous valorisons votre satisfaction avant tout. C'est pourquoi 
+                                nous sommes fiers de vous offrir notre Service Après-Vente
+                                 (SAV) hautement qualifié pour répondre à tous vos besoins post-achat.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 'offres' -->
+                <div class="col-11 col-md-4 col-xl-3 mx-auto mb-4 mb-md-0">
+                    <div class="card card-offre shadow h-100 rounded-0 mx-auto">
+                        <img src="./assets/products/materiel.jpg" class="card-img-top img-fluid rounded-0" alt="...">
+                        <div class="body-card-offres overlay">
+                            <div class="d-flex justify-content-center flex-column">
+                                <h5 class="text-red text-center mb-3 text-shadow">Fourniture d’équipement et matériel</h5>
+                                <span class="text-center">Voir plus</span>
+                            </div>
+                            <p class="card-text text-center description">
+                                Nous comprenons que le succès de votre entreprise dépend en 
+                                grande partie de la qualité de l'équipement et du matériel 
+                                que vous utilisez. C'est pourquoi nous sommes fiers de vous 
+                                proposer une large gamme de produits de haute qualité pour 
+                                répondre à vos besoins professionnels.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 'offres' -->
+                <div class="col-11 col-md-4 col-xl-3 mx-auto mb-4 mb-md-0">
+                    <div class="card card-offre shadow h-100 rounded-0 mx-auto">
+                        <img src="./assets/products/formation.jpg" class="card-img-top img-fluid rounded-0" alt="...">
+                        <div class="body-card-offres overlay">
+                            <div class="d-flex justify-content-center flex-column">
+                                <h5 class="text-red text-center mb-3 text-shadow">Formations Produits</h5>
+                                <span class="text-center">Voir plus</span>
+                            </div>
+                            <p class="card-text text-center description">
+                                Découvrez nos formations produits, animées par 
+                                des experts, qui vous guideront 
+                                à travers toutes les fonctionnalités et les meilleures pratiques 
+                                d'utilisation de nos produits.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 'offres' -->
+                <!-- <div class="col-10 col-md-4 col-xl-2 mx-auto mb-4 mb-md-0">
+                    <div class="card shadow h-100 rounded-0 mx-auto">
+                        <img src="./assets/products/offre-1.jpg" class="card-img-top img-fluid rounded-0" alt="...">
+                        <div class="body-card-offres overlay">
+                            <div class="d-flex justify-content-center flex-column">
+                                <h5 class="text-red text-center mb-3 text-shadow">Securité electronique et controle d’accès</h5>
+                                <span class="text-center">Voir plus</span>
+                            </div>
+                            <p class="card-text text-center description">Some quick example text to build on the Nom du produit and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- card 'offres' -->
+                <!-- <div class="col-10 col-md-4 col-xl-2 mx-auto mb-4 mb-md-0">
+                    <div class="card shadow h-100 rounded-0 mx-auto">
+                        <img src="./assets/products/offre-1.jpg" class="card-img-top img-fluid rounded-0" alt="...">
+                        <div class="body-card-offres overlay">
+                            <div class="d-flex justify-content-center flex-column">
+                                <h5 class="text-red text-center mb-3 text-shadow">Securité electronique et controle d’accès</h5>
+                                <span class="text-center">Voir plus</span>
+                            </div>
+                            <p class="card-text text-center description">Some quick example text to build on the Nom du produit and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div> -->
+
+            </div>
+        </section>
+
+        
+        <!--        POURQUOI NOUS       -->
+        <section id="why-us" class="pt-4 pb-2 pb-md-5 bg-silver">
+            <div class="d-flex flex-column justify-content-center">
+                <h2 class="text-center fw-bold title m-0">Pourquoi Nous Choisir ?</h2>
+                <!-- <span class="m-0 mx-auto line-red-lg"></span> -->
+            </div>
+
+            <div class="row px-md-3 flex-column justify-content-center flex-md-row align-items-md-center mt-5 position-relative ">
+                <div class="col-10 col-md-3 shape-left pe-md-5 anim-1 mx-auto ">
+                    <div class="col-10 h-100">
+                        <div class="custum-card ">
+                            <img src="./assets/icon/icon-2.png" alt="" class="card-img">
+                            <span class="line-red-sm"></span>
+                            <div class="body-card">
+                                <p class="text-start">
+                                    Des <span class="text-red">solutions</span> 
+                                    industrielles <br><span class="text-red">Adaptées</span> 
+                                    à vos besoins
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-md-3 diamond mt-3 my-md-0 anim-3 mx-auto">
+                    <div class="col-9 h-100 ">
+                        <div class="custum-card ">
+                            <img src="./assets/icon/icon-3.png" alt="" class="card-img">
+                            <span class="line-red-sm"></span>
+                            <div class="body-card">
+                                <p class="text-start">
+                                    Un <span class="text-red">réseau</span> 
+                                    solide de <br><span class="text-red">Partenaires</span> Chinois
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-md-3 my-3 my-md-0 diamond anim-2 mx-auto">
+                    <div class="col-9 h-100 ">
+                        <div class="custum-card ">
+                            <img src="./assets/icon/icon-1.png" alt="" class="card-img">
+                            <span class="line-red-sm"></span>
+                            <div class="body-card">
+                                <p class="text-start">
+                                    Un <span class="text-red">savoir faire</span>
+                                    <br>Confirmé
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-md-3 shape-right anim-4 mx-auto">
+                    <div class="col-9 h-100">
+                        <div class="custum-card ">
+                            <img src="./assets/icon/icon-4.png" alt="" class="card-img">
+                            <span class="line-red-sm"></span>
+                            <div class="body-card">
+                                <p class="text-start">
+                                    Un Service orienté<br>
+                                    <span class="text-red">Satisfaction</span> client
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <!-- all cards -->
+            <h4 class="text-why fs-5 mx-auto my-5 text-center">
+                Nos ingénieurs et techniciens sino-africains sont à votre disposition depuis la Chine jusqu'à la livraison de vos équipements industriels. <br>
+                Pour votre développement industriel, faites-nous confiance. Avec nos partenaires chinois, nous propulsons votre usine au niveau supérieur.
+            </h4>
+            <div class="row h-test slider-2 px-md-3 flex-md-row flex-nowrap justify-content-center align-items-center mt-2 h-100 px-1">
+                
+
+                <div class="col-5 col-md-2 p-0 card-w">
+                    <div class="custum-card-2 card-why m-0 p-0">
+                        <img src="./assets/icon/icon-call.png" alt="" class="card-img">
+                        <div class="body-card-2 mt-auto">
+                            <!-- <p class="text-start">Un <span class="text-red">réseau</span> solid de <br><span class="text-red">Partenaires</span> Chinois</p> -->
+                            <p class="text-center">
+                                Comprendre vos besoins
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="custum-col chevron-h col-2 d-flex flex-row justify-content-center p-0 align-items-center my-auto">
+                    <i class="bi bi-chevron-right chevron-w"></i>
+                    <i class="bi bi-chevron-right chevron-w"></i>
+                    <i class="bi bi-chevron-right chevron-w"></i>
+                </div>
+                <div class="col-5 col-md-2 p-0 card-w ">
+                    <div class="custum-card-2 card-why m-0 p-0">
+                        <img src="./assets/icon/icon-store.png" alt="" class="card-img">
+                        <div class="body-card-2">
+                            <!-- <p class="text-start">Un <span class="text-red">réseau</span> solid de <br><span class="text-red">Partenaires</span> Chinois</p> -->
+                            <p class="text-center">
+                                Rechercher le meilleur fournisseur
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="custum-col chevron-h col-2 d-flex flex-row justify-content-center p-0 align-items-center my-auto">
+                    <i class="bi bi-chevron-right chevron-w"></i>
+                    <i class="bi bi-chevron-right chevron-w"></i>
+                    <i class="bi bi-chevron-right chevron-w"></i>
+                </div>
+                <div class="col-5 col-md-2 p-0 card-w ">
+                    <div class="custum-card-2 card-why m-0 p-0">
+                        <img src="./assets/icon/icon-usine.png" alt="" class="card-img">
+                        <div class="body-card-2">
+                            <!-- <p class="text-start">Un <span class="text-red">réseau</span> solid de <br><span class="text-red">Partenaires</span> Chinois</p> -->
+                            <p class="text-center">
+                                Produire la quantité demandée
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="custum-col chevron-h col-2 d-flex flex-row justify-content-center p-0 align-items-center my-auto">
+                    <i class="bi bi-chevron-right chevron-w"></i>
+                    <i class="bi bi-chevron-right chevron-w"></i>
+                    <i class="bi bi-chevron-right chevron-w"></i>
+                </div>
+                <div class="col-5 col-md-2 p-0 card-w ">
+                    <div class="custum-card-2 card-why m-0 p-0">
+                        <img src="./assets/icon/icone-list.png" alt="" class="card-img">
+                        <div class="body-card-2">
+                            <!-- <p class="text-start">Un <span class="text-red">réseau</span> solid de <br><span class="text-red">Partenaires</span> Chinois</p> -->
+                            <p class="text-center">
+                                Le contrôle de la qualité
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="custum-col chevron-h col-2 d-flex flex-row justify-content-center p-0 align-items-center my-auto">
+                    <i class="bi bi-chevron-right chevron-w"></i>
+                    <i class="bi bi-chevron-right chevron-w"></i>
+                    <i class="bi bi-chevron-right chevron-w"></i>
+                </div>
+                <div class="col-5 col-md-2 p-0 card-w ">
+                    <div class="custum-card-2 card-why m-0 p-0">
+                        <img src="./assets/icon/icon-board.png" alt="" class="card-img">
+                        <div class="body-card-2">
+                            <!-- <p class="text-start">Un <span class="text-red">réseau</span> solid de <br><span class="text-red">Partenaires</span> Chinois</p> -->
+                            <p class="text-center">
+                                Expédition à domicile
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--                    NOS PARTENAIRE                -->
+        <section id="partenaire" class="pt-4 pt-md-5 pb-4">
+            <div class="container-fluid">
+                <div class="d-flex flex-column justify-content-center mb-4">
+                    <h2 class="text-center fw-bold title m-0">Nos partenaires</h2>
+                    <span class="m-0 mx-auto line-red"></span>
+                </div>
+                <div class="row slider-basic d-flex align-items-center h-75 flex-nowrap flex-row m-0 p-0">
+                    <div class="col-sm-3 col-4 me-2"><img src="./assets/partenaire/guanxi_managment.png" alt="Icon 1" class="img-fluid filter"></div>
+                    <div class="col-sm-3 col-4 me-2"><img src="./assets/partenaire/guanxi_industry.png" alt="Icon 1" class="img-fluid filter"></div>
+                    <div class="col-sm-3 col-4 me-2"><img src="./assets/partenaire/EACCI.png" alt="Icon 1" class="img-fluid filter"></div>
+                    <div class="col-sm-3 col-4 me-2"><img src="./assets/partenaire/Logo-sino-afrique-mag.png" alt="Icon 1" class="img-fluid filter"></div>
+                    <div class="col-sm-3 col-4 me-2"><img src="./assets/partenaire/g2i.png" alt="Icon 1" class="img-fluid filter"></div>
+                    <div class="col-sm-3 col-4 me-2"><img src="./assets/partenaire/wietc.png" alt="Icon 1"  class="img-fluid filter"></div>
+                </div>
+            </div>
+        </section>
+
+        <!--                    NEWSLETTER                -->
+        <section id="newsletter" class="pt-4 pt-md-5 pb-4">
+            <div class="d-flex flex-column justify-content-center mb-4 mb-md-5">
+                <h2 class="text-center fw-bold title m-0">NEWSLETTER</h2>
+                <!-- <span class="m-0 mx-auto line-red"></span> -->
+            </div>
+            <div class="row newsletter-p-w mx-auto">
+                <p class="m-0 text-center fw-light fs-5 mb-2">Inscrivez-vous dès maintenant à notre newsletter pour rester informé(e) en avant-première de toutes nos nouveautés.</p>
+                <p class="m-0 text-center fw-light fs-5">Soyez parmi les privilégiés à recevoir nos offres exclusives directement dans votre boîte de réception.</p>
+                <!-- <p class="m-0 text-center fs-5 mb-2">Ne manquez plus aucune de nos offres spéciales et de nos contenus exclusifs !</p> -->
+                <!-- <p class="m-0 text-center fs-5">Inscrivez-vous dès maintenant à notre newsletter pour rester informé(e) en avant-première de toutes nos nouveautés. Soyez parmi les privilégiés à recevoir nos offres exclusives directement dans votre boîte de réception.</p> -->
+            
+                <form class="row my-5 justify-content-center align-items-center">
+                    <div class="col-11 col-md-7 ms-md-auto">
+                        <input type="text" class="form-control-custum input-newsletter" id="inputPassword2" placeholder="exemple@mail.com">
+                    </div>
+                    <div class="col-auto me-md-auto mx-auto mx-md-0 mt-3 mt-md-0">
+                        <button type="submit" class="custom-btn-sm">S'inscrire</button>
+                    </div>
+                </form>
+            </div>
+            
+        </section>
+    </main>
+
+
+    <footer class="pt-5 pb-4 bg-dark text-white">
+        <div class="container-fluid">
+            <div class="row p-0 m-0 mb-4">
+                <div class="col-12 col-md-6 d-flex justify-content-center mb-4">
+                    <img src="./assets/logo/Guanxi-industrie-bg.jpg" alt="logo guanxi_industry" class="img-fluid filter">
+                    <!-- <img src="./assets/logo/Guanxi-industrie-bg.jpg" alt="logo guanxi_industry" class="img-fluid"> -->
+                </div>
+                <div class="col-12 col-md-6 d-flex my-4 p-0">
+                    <div class="col-4">
+                        <ul class="list-group bg-dark">
+                            <li class="list-group-item list-title text-shadow">Nos Produits</li>
+                            <li><a href="./gallery.html" class="list-group-item list-group-dark">Mine</a></li>
+                            <li><a href="./gallery.html" class="list-group-item list-group-dark">Ciment</a></li>
+                            <li><a href="./gallery.html" class="list-group-item list-group-dark">Energie</a></li>
+                            <li><a href="./gallery.html" class="list-group-item list-group-dark">Agro-industrie</a></li>
+                            <li><a href="./gallery.htmll" class="list-group-item list-group-dark">Materiels Industriels</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-4 p-0">
+                        <ul class="list-group bg-dark">
+                            <li class="list-group-item list-title text-shadow">Nos Solutions</li>
+                            <li><a href="./marketplace.html" class="list-group-item list-group-dark">Santé</a></li>
+                            <li><a href="./marketplace.html" class="list-group-item list-group-dark">Education</a></li>
+                            <li><a href="./marketplace.html" class="list-group-item list-group-dark">Hydraulique</a></li>
+                            <li><a href="./marketplace.html" class="list-group-item list-group-dark">Smart Energie</a></li>
+                            <li><a href="./marketplace.html" class="list-group-item list-group-dark">Agro-alimentaire</a></li>
+                            <li><a href="./marketplace.html" class="list-group-item list-group-dark">Ligne de Production</a></li>
+                            <li><a href="./marketplace.html" class="list-group-item list-group-dark">Intelligence artificielle</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-4">
+                        <ul class="list-group bg-dark">
+                            <li><a href="./services.html" class="list-group-item list-title text-shadow">Nos Services</a></li>
+                            <li><a href="./services.html#sav" class="list-group-item list-group-dark">SAV</a></li>
+                            <li><a href="./services.html#maintenance" class="list-group-item list-group-dark">Maintenance</a></li>
+                            <li><a href="./services.html#fourniture" class="list-group-item list-group-dark">Formations</a></li>
+                            <li><a href="./services.html#formations" class="list-group-item list-group-dark">Fourniture d’équipement et matériel</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row border-top p-0 pt-3 m-0 d-flex align-items-center justify-content-around">
+                <p class="text-center m-0 p-0 w-auto order-2 order-md-0 mt-3 mt-md-0">GUANXI INDUSTRIES <span class="mx-2">|</span> Copyright <a href="https://ci.linkedin.com/in/assale-franck-tanoh" target="_blank" class="text-white text-decoration-none copyright"> <i class="bi bi-c-circle mx-1"></i></a> 2023</p>
+                <ul class="d-flex w-auto m-0">
+                    <li><span class="fi fi-ci me-1"></span> (+225) 07 890 521 98</li>
+                    <li><span class="fi fi-cn me-1 ms-3 ms-md-4"></span> (+86) 07 131 6737 1233</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Custum script -->
+    <script src="./assets/js/accordion.js"></script>
+    <script src="./assets/js/scrollbar.js"></script>
+    <script src="./assets/js/basic-slide.js"></script>
+    <script src="./assets/js/card-slide.js"></script>
+    <script src="./assets/js/card-slider.js"></script>
+    <script src="./assets/js/overlay.js"></script>
+    <script src="./assets/js/slider-tabs.js"></script>
+    <script src="./assets/js/btn-up.js"></script>
+    <!-- Boostrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+</body>
+</html>

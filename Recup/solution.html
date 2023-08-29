@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/solution-styles.css">
+    <link rel="stylesheet" href="./assets/css/carousel.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> -->
+    <link href="//fonts.googleapis.com/css?family=Roboto|Open+Sans:200,300,400,700,800,900&amp;subset=latin" rel="preload" as="font">
+    <!-- Flather Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.9.2/css/flag-icons.min.css"/>
+    <!-- <script src="https://unpkg.com/feather-icons"></script> -->
+    <!-- bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- script animation -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+    <!-- <script src="./assets/js/color-modes.js"></script> -->
+    <title>NOS SOLUTIONS | GUANXI INDUSTRIES</title>
+</head>
+<body>
+    <header class="w-100">
+        <!-- <div class="info">
+            <span><i class="bi bi-telephone ms-3 me-2"></i></span>
+            <ul class="d-flex w-auto justify-content-between align-items-center m-0 border">
+                <li><span class="fi fi-ci me-1"></span> (+225) 07 890 521 98</li>
+                <li><span class="fi fi-cn me-1 ms-3 ms-md-4"></span> (+86) 07 131 6737 1233</li>
+            </ul>
+        </div> -->
+        <nav class="navbar navbar-expand-lg navbar-height fixed w-100 px-0 nav-bg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/logo/Logo_Guanxi_Industrie_sm.png" alt="Bootstrap" class="img-size">
+                </a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto me-lg-0 mb-2 mb-lg-0 w75 d-lg-flex justify-content-lg-evenly">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Accueil</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Nos produits
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./marketplace">Mine</a></li>
+                                <li><a class="dropdown-item" href="./marketplace">ENERGIE</a></li>
+                                <li><a class="dropdown-item" href="./marketplace">AGRO-INDUSTRIE</a></li>
+                                <li><a class="dropdown-item" href="./marketplace">MATERIELS INDUSTRIELS</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Nos Solution
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./solution.html">Accueil</a></li>
+                                <li><a class="dropdown-item" href="./solution.html#maintenance">Maintenance</a></li>
+                                <li><a class="dropdown-item" href="./solution.html#sav">SAV</a></li>
+                                <li><a class="dropdown-item" href="./solution.html#fourniture">Fournirture d'Equipement et Materiél</a></li>
+                                <li><a class="dropdown-item" href="./solution.html#formations">Formations Produits</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Nous Contacter</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about.html">A propos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="carousel">
+
+            <div class="container-fluid p-0 m-0 carousel-height">
+                <div id="carouselExampleCaptions" class="carousel h-100 slide mt-4 mt-md-0 mb-0" data-bs-ride="carousel">
+                    <div class="carousel-indicators-custum">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner h-100">
+                        <div class="carousel-item bg-1 active">
+                            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+                            <div class="container">
+                                <div class="carousel-caption text-start">
+                                    <h1>Maintenance</h1>
+                                    <p class="opacity-75">
+                                        Notre équipe expérimentée de professionnels de la maintenance est là pour vous 
+                                        aider à garder vos machines en pleine efficacité et fonctionnalité.</p>
+                                    <p><a class="custom-btn-sm" href="#maintenance">Lire plus</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item bg-2">
+                            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+                            <div class="container">
+                                <div class="carousel-caption text-start">
+                                    <h1>SAV</h1>
+                                    <p class="opacity-75"> 
+                                        Nous valorisons votre satisfaction avant tout. C'est pourquoi 
+                                        nous sommes fiers de vous offrir notre Service Après-Vente
+                                         (SAV) hautement qualifié pour répondre à tous vos besoins post-achat.
+                                    </p>
+                                    <p><a class="custom-btn-sm" href="#sav">Lire plus</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item bg-3">
+                            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+                            <div class="container">
+                                <div class="carousel-caption text-start">
+                                    <h1 class="">Fourniture d’équipement et matériel</h1>
+                                    <p>
+                                        Nous sommes fiers de vous 
+                                        proposer une large gamme de produits de haute qualité pour 
+                                        répondre à vos besoins professionnels.
+                                    </p>
+                                    <p><a class="custom-btn-sm" href="#materiel">Lire plus</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item bg-4">
+                            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+                            <div class="container">
+                                <div class="carousel-caption text-start">
+                                    <h1 class="">Formations Produits</h1>
+                                    <p>
+                                        Découvrez nos formations produits, animées par 
+                                        des experts, qui vous guideront 
+                                        à travers toutes les fonctionnalités et les meilleures pratiques 
+                                        d'utilisation de nos produits.
+                                    </p>
+                                    <p><a class="custom-btn-sm" href="#materiel">Lire plus</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+      
+      
+        <!-- Marketing messaging and featurettes
+        ================================================== -->
+        <!-- Wrap the rest of the page in another container to center all the content. -->
+      
+        <div class="container marketing mt-0 pt-0">
+      
+          <!-- Three columns of text below the carousel -->
+            <!-- <div class="row">
+                <div class="col-lg-4">
+                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+                    <h2 class="fw-normal">Heading</h2>
+                    <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+                    <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                </div>/.col-lg-4
+                <div class="col-lg-4">
+                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+                    <h2 class="fw-normal">Heading</h2>
+                    <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+                    <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                </div>/.col-lg-4
+                <div class="col-lg-4">
+                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+                    <h2 class="fw-normal">Heading</h2>
+                    <p>And lastly this, the third column of representative placeholder content.</p>
+                    <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                </div>/.col-lg-4
+            </div>/.row -->
+      
+      
+            <!-- START THE FEATURETTES -->
+        
+            <hr class="featurette-divider mt-0" id="maintenance">
+            
+            <!--        Maintenance         -->
+            <div class="row featurette">
+                <div class="col-md-7 ">
+                    <h2 class="fw-normal lh-1">Maintenance <br><span class="text-body-secondary">Garantissez la Continuité de Vos Opérations</span></h2>
+                    <p class="lead">
+                        Notre Service de Maintenance inclut :
+                    </p>
+                    <ol class="pe-md-4">
+                        <li>
+                            <span class="fw-bold">Expérience et Compétence :</span>
+                            <p>
+                                Nos techniciens hautement qualifiés possèdent une vaste expérience dans le domaine de la maintenance industrielle et commerciale
+                            </p>
+                        </li>
+                        <li>
+                            <span class="fw-bold">Flexibilité et Personnalisation : </span>
+                            <p>
+                                Nous nous adaptons à vos besoins spécifiques et offrons des solutions de maintenance sur mesure pour votre entreprise
+                            </p>
+                        </li>
+                        <li>
+                            <span class="fw-bold">Diagnostic Approfondi : </span>
+                            <p>
+                                Nous réaliserons des analyses détaillées de la performance de vos équipements afin d'identifier les problèmes potentiels et d'optimiser leur efficacité opérationnelle
+                            </p>
+                        </li>
+                        <li>
+                            <span class="fw-bold">Conseils d'Expertise : </span>
+                            <p>
+                                Notre équipe est disponible pour vous conseiller sur les meilleures pratiques en matière de maintenance et d'utilisation de vos équipements
+                            </p>
+                        </li>
+                    </ol>
+                </div>
+                <div class="col-md-5 d-flex align-items-center p-0">
+                    <img src="./assets/products/main-500.jpg" alt="" class="img-fluid rounded-4 ">
+                    <!-- <svg class=" bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg> -->
+
+                </div>
+            </div>
+      
+            <hr class="featurette-divider" id="sav">
+      
+            <!--        SAV        -->
+            <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="fw-normal lh-1">Service Après-Vente (SAV) <br><span class="text-body-secondary">Satisfaction Garantie</span></h2>
+                    <p class="lead">
+                        Notre Service de Maintenance inclut :
+                    </p>
+                    <ol>
+                        <li>
+                            <span class="fw-bold">Assistance Technique Expert :</span>
+                            <p>
+                                Notre équipe d'experts techniques est prête à vous aider en cas de problème ou de question concernant nos produits. Nous sommes là pour vous fournir des solutions rapides et efficaces
+                            </p>
+                        </li>
+                        <li>
+                            <span class="fw-bold">Réparation et Remplacement : </span>
+                            <p>
+                                Si votre produit présente un défaut ou un problème de fonctionnement, notre SAV se chargera de la réparation ou du remplacement, selon les termes de notre politique de garantie.
+                            </p>
+                        </li>
+                        <li>
+                            <span class="fw-bold">Suivi personnalisé : </span>
+                            <p>
+                                Nous vous assurons un suivi personnalisé tout au long du processus de SAV. Nous tiendrons informé de l'avancement de votre dossier et veillerons à ce que vous soyez satisfait de la résolution apportée.
+                            </p>
+                        </li>
+                        <li>
+                            <span class="fw-bold">Facilité et Rapidité : </span>
+                            <p>
+                                Nous comprenons que votre temps est précieux. C'est pourquoi nous mettons tout en œuvre pour rendre le processus de SAV simple, rapide et sans tracas.
+                            </p>
+                        </li>
+                    </ol>
+                </div>
+                <div class="col-md-5 d-flex align-items-center p-0 order-md-1">
+                    <img src="./assets/products/sav-500.jpg" alt="" class="img-fluid rounded-4">
+                </div>
+            </div>
+
+            <hr class="featurette-divider" id="fourniture">
+
+            <!--        Fourniture       -->
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="fw-normal lh-1">Fourniture d'Équipement et Matériel<br><span class="text-body-secondary">Des Solutions Adaptées à Vos Besoins</span></h2>
+                    <p class="lead">
+                        Notre offre de Fourniture d'Équipement et Matériel comprend :
+                    </p>
+                    <ol class="pe-md-4">
+                        <li>
+                            <span class="fw-bold">Équipement de Pointe :</span>
+                            <p>
+                                Découvrez une sélection complète d'équipements de pointe, spécialement conçus pour améliorer l'efficacité de vos opérations. Des machines puissantes aux technologies de pointe, nous avons tout ce dont vous avez besoin
+                            </p>
+                        </li>
+                        <li>
+                            <span class="fw-bold">Matériel Durable :</span>
+                            <p>
+                                Notre matériel de qualité supérieure est conçu pour résister à des conditions exigeantes et offrir des performances durables, réduisant ainsi les temps d'arrêt et les coûts de maintenance
+                            </p>
+                        </li>
+                        <li>
+                            <span class="fw-bold">Solutions Personnalisées : </span>
+                            <p>
+                                Nous croyons que chaque entreprise est unique. C'est pourquoi nous travaillons avec vous pour comprendre vos besoins spécifiques et vous proposer des solutions sur mesure qui répondent à vos exigences
+                            </p>
+                        </li>
+                        <li>
+                            <span class="fw-bold">Service Après-Vente : </span>
+                            <p>
+                                Notre équipe de support technique est là pour vous aider à tirer le meilleur parti de votre équipement. En cas de besoin, notre Service Après-Vente réactif est là pour vous soutenir
+                            </p>
+                        </li>
+                    </ol>
+                </div>
+                <div class="col-md-5 d-flex align-items-center p-0">
+                    <img src="./assets/products/materiel-500.jpg" alt="" class="img-fluid rounded-4">
+                    <!-- <svg class=" bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg> -->
+
+                </div>
+            </div>
+
+            <hr class="featurette-divider" id="formations">
+
+
+            <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="fw-normal lh-1">Formations Produits<br><span class="text-body-secondary">Devenez un Expert</span></h2>
+                    <p class="lead">
+                        Formation enrichissante grâce :
+                    </p>
+                    <ol>
+                        <li>
+                            <span class="fw-bold">Expertise Technique :</span>
+                            <p>
+                               Nos formateurs sont des experts qualifiés, parfaitement compétents pour vous enseigner les aspects techniques de nos produits
+                            </p>
+                        </li>
+                        <li>
+                            <span class="fw-bold">Cas Pratiques :</span>
+                            <p>
+                                Nos formations sont axées sur des exemples concrets et des cas d'utilisation réels, vous permettant de voir comment appliquer les connaissances acquises dans votre travail quotidien
+                            </p>
+                        </li>
+                        <li>
+                            <span class="fw-bold">Flexibilité : </span>
+                            <p>
+                                Nous proposons des formations sur site ou en ligne, selon vos préférences et votre emploi du temps chargé
+                            </p>
+                        </li>
+                        <li>
+                            <span class="fw-bold">Personnalisation : </span>
+                            <p>
+                                Nos programmes de formation sont adaptables à vos besoins spécifiques, en mettant l'accent sur les domaines qui vous intéressent le plus
+                            </p>
+                        </li>
+                    </ol>
+                </div>
+                <div class="col-md-5 d-flex align-items-center p-0 order-md-1">
+                    <img src="./assets/products/formation-500.jpg" alt="" class="img-fluid rounded-4">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row mb-5 d-flex flex-column justify-content-center">
+                <p class="text-center invite">
+                    Ne manquez pas l'opportunité de faire évoluer votre entreprise avec nos produits de qualité. <br>Contactez-nous dès aujourd'hui et laissez-nous vous guider vers le succès !
+                </p>
+                <div class="text-center mt-3">
+                    <a href="./contacter" class="custom-btn">Nous Contactez</a>
+                </div>
+            </div>
+            
+        </div><!-- /.container -->
+      
+      
+        <!-- FOOTER -->
+        <footer class="pt-5 pb-4 bg-dark text-white">
+            <div class="container-fluid">
+                <div class="row p-0 m-0 mb-4">
+                    <div class="col-12 col-md-6 d-flex justify-content-center mb-4">
+                        <img src="./assets/logo/Guanxi-industrie-bg.jpg" alt="logo guanxi_industry" class="img-fluid logo">
+                        <!-- <img src="./assets/logo/Guanxi-industrie-bg.jpg" alt="logo guanxi_industry" class="img-fluid"> -->
+                    </div>
+                    <div class="col-12 col-md-6 d-flex my-4 p-0">
+                        <div class="col-4 p-0">
+                            <ul class="list-group bg-dark">
+                                <li class="list-group-item list-title text-shadow">Pages</li>
+                                <li><a href="#" class="list-group-item list-group-dark">Accueil</a></li>
+                                <li><a href="#" class="list-group-item list-group-dark">Nos Produits</a></li>
+                                <li><a href="#" class="list-group-item list-group-dark">Nous Contacter</a></li>
+                                <li><a href="./about.html" class="list-group-item list-group-dark">A Propos</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-4">
+                            <ul class="list-group bg-dark">
+                                <li class="list-group-item list-title text-shadow">Nos Produits</li>
+                                <li><a href="./marketplace" class="list-group-item list-group-dark">Mine</a></li>
+                                <li><a href="./marketplace" class="list-group-item list-group-dark">Energie</a></li>
+                                <li><a href="./marketplace" class="list-group-item list-group-dark">Agro-industrie</a></li>
+                                <li><a href="./marketplace" class="list-group-item list-group-dark">Materiels Industriels</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-4">
+                            <ul class="list-group bg-dark">
+                                <li><a href="./solution.html" class="list-group-item list-title text-shadow">Nos Solutions</a></li>
+                                <li><a href="./solution.html#maintenance" class="list-group-item list-group-dark">Maintenance</a></li>
+                                <li><a href="./solution.html#sav" class="list-group-item list-group-dark">SAV</a></li>
+                                <li><a href="./solution.html#fourniture" class="list-group-item list-group-dark">Formations</a></li>
+                                <li><a href="./solution.html#formations" class="list-group-item list-group-dark">Fourniture d’équipement et matériel</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row border-top p-0 pt-3 m-0 d-flex align-items-center justify-content-around">
+                    <p class="text-center m-0 p-0 w-auto order-2 order-md-0 mt-3 mt-md-0">GUANXI INDUSTRIES <span class="mx-2">|</span> Copyright <a href="https://ci.linkedin.com/in/assale-franck-tanoh" target="_blank" class="text-white text-decoration-none copyright"> <i class="bi bi-c-circle mx-1"></i></a> 2023</p>
+                    <ul class="d-flex w-auto m-0">
+                        <li><span class="fi fi-ci me-1"></span> (+225) 07 890 521 98</li>
+                        <li><span class="fi fi-cn me-1 ms-3 ms-md-4"></span> (+86) 07 131 6737 1233</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+      </main>
+
+    <!-- Custum script -->
+    <script src="./assets/js/accordion.js"></script>
+    <script src="./assets/js/scrollbar.js"></script>
+    <script src="./assets/js/basic-slide.js"></script>
+    <script src="./assets/js/card-slide.js"></script>
+    <script src="./assets/js/card-slider.js"></script>
+    <script src="./assets/js/overlay.js"></script>
+    <script src="./assets/js/slider-tabs.js"></script>
+    <!-- Boostrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+</body>
+</html>

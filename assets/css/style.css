@@ -183,7 +183,8 @@ header {
 }
 
 .carousel-bg-1 {
-    background-image: url('../originale/formation-original.jpg');
+    background-image: url('../ilustrations/Page.png');
+    /* background-image: url('../originale/formation-original.jpg'); */
 }
 .carousel-height {
     height: 80vh;

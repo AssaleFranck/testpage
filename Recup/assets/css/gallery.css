@@ -1,0 +1,142 @@
+.bg-silver {
+    background: rgb(239, 238, 238);
+}
+.bg-rouge {
+    background: rgb(255, 230, 230);
+}
+
+
+.height-slider {
+    height: 30vh !important;
+}
+.width {
+    width: 90%;
+}
+
+.bord-b {
+    border-bottom: 1px solid black;
+}
+
+.display {
+    font-size: calc(1.825rem + 4.5vw);
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+@media (min-width: 1200px) {
+    .display {
+        font-size: 5rem;
+    }
+}
+
+
+.title-width, .title-width-2 {
+    width: 40%;
+}
+
+
+
+
+
+@media (max-width: 767.9px) {
+
+    .display {
+        font-size: calc(1.575rem + 3.9vw);
+        font-weight: 300;
+        line-height: 1.2;
+    }
+    .title-width-2 {
+        width: 70%;
+    }
+
+    .width-75 {
+        width: 100%;
+    }
+
+    .height-slider {
+        height: 15vh !important;
+    }
+    .text-3d {
+        text-shadow: 
+        1px 1px #b8b7b7,
+        1px 2px #b8b7b7,
+        1px 3px #b8b7b7,
+        1px 5px #b8b7b7,
+        1px 6px #b8b7b7,
+        1px 7px #b8b7b7,
+        1px 8px 1px #2d2d2d66 !important;
+    }
+}
+.text-3d {
+    text-shadow: 
+    1px 1px #919191,
+    1px 2px #919191,
+    1px 3px #919191,
+    1px 4px #919191,
+    1px 5px #919191,
+    1px 6px #919191,
+    1px 7px #919191,
+    1px 8px #919191,
+    1px 9px #919191,
+    1px 10px 1px #919191,
+    1px 18px 6px #2d2d2d66;
+    /* 1px 22px 10px #2d2d2d66; */
+}
+
+
+
+.thumbnail {
+    /* width: 100px;
+    height: 100px; */
+    max-height: 100% !important;
+    scroll-snap-align: start;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.main-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 50vh;
+}
+
+
+.main-images img, .thumbnail {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.selected {
+    position: relative;
+    /* border: 1px solid red; */
+    z-index: 100;
+}
+
+
+
+
+
+.bi-chevron-right, .bi-chevron-left {
+    position: absolute;
+    z-index: 100;
+    font-size: 2rem;
+    width: auto;
+    cursor: pointer;
+    color: #fff;
+}
+
+.bi-chevron-right {
+    right: 0 !important;
+    /* display: none !important; */
+}
+.bi-chevron-left {
+    left: 0 !important;
+    /* display: none !important; */
+}
+
+
+
+
+

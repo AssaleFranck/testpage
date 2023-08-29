@@ -1,0 +1,35 @@
+.input-w10 {
+    width: 10%;
+}
+.input-w80 {
+    width: 80%;
+}
+label {
+    font-size: larger;
+    font-weight: light;
+}
+/* .form-group {
+
+} */
+
+.card-info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    height: 240px;
+    padding-left: 1.2rem;
+    color: #fff;
+}
+.card-info ul {
+    display: flex;
+    flex-direction: column;
+}
+/* .card-info li {
+    font-size: larger;
+} */
+
+.bi {
+    margin-right: 0.5rem;
+}
